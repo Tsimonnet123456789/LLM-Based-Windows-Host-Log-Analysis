@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1523,10,PowerShell security policy export from Wazuh agent
+1527,3,conhost.exe from PowerShell parent process
+1524,3,wermgr.exe upload from svchost parent
+1537,2,wmiprvse.exe secured embedding from svchost
+1522,2,taskhostw.exe network task from svchost

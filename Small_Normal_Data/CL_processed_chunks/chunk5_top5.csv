@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+343,2,Group membership change Administrators
+337,2,Suspicious QuitInfo command line parameter
+295,3,EdgeWebView2 launched from SearchHost process
+284,2,rundll32 executing AppXDeploymentExtensions DLL
+298,2,SLUI Windows activation process execution

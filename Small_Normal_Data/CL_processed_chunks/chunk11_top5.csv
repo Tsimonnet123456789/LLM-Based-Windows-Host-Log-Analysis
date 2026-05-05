@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+742,13,wazuh-agent spawning powershell querying password policy
+778,13,wazuh-agent spawning powershell querying password policy
+769,13,wazuh-agent spawning powershell querying password policy
+735,12,pizza user added to Administrators group
+738,12,pizza user added to Administrators group

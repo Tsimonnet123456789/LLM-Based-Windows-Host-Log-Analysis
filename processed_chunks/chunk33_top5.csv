@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2297,4,Pizza user added to Administrators group
+2265,3,Administrator account enumeration event
+2266,3,DefaultAccount enumeration event
+2268,3,Guest account enumeration event
+2273,3,Pizza user account enumeration event

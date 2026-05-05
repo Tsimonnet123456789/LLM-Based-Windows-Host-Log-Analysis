@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3382,12,Suspicious email account granted special privileges
+3391,12,Suspicious email account granted special privileges
+3377,11,Suspicious email account logon attempt via svchost
+3378,11,Suspicious email account logon via svchost process
+3379,11,Suspicious email account group membership assignment

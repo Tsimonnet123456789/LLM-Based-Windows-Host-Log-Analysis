@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+194,15,Suspicious email in username
+597,15,User added to Administrators
+742,10,Security policy export and deletion
+708,9,Critical file permission removal
+83,12,Unusual executable path

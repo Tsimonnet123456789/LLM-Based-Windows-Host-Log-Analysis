@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+778,10,Wazuh agent executing secedit password policy extraction
+785,10,Wazuh agent executing secedit password policy extraction
+793,10,Wazuh agent executing secedit password policy extraction
+811,10,Wazuh agent executing secedit lockout policy extraction
+817,10,Wazuh agent executing secedit lockout policy extraction

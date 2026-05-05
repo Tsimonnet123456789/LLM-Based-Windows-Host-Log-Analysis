@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2750,7,User pizza added to Administrators group
+2760,6,Computer account added to Administrators group
+2747,5,SearchProtocolHost with complex pipe and registry parameters
+2793,5,SearchProtocolHost with complex pipe and registry parameters
+2734,3,OpenConsole with headless mode and signal parameters

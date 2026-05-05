@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+,4688,2026-04-18 17:03:51.292143+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,840,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\SysWOW64\net1.exe,4689,2026-04-18 17:03:51.418959+00:00,DESKTOP-7CV8A7M$,,,,841,2,Normal net1.exe process termination
+C:\Windows\SysWOW64\net.exe,4689,2026-04-18 17:03:51.420504+00:00,DESKTOP-7CV8A7M$,,,,842,2,Normal net.exe process termination
+C:\Windows\SysWOW64\cmd.exe,4689,2026-04-18 17:03:51.422899+00:00,DESKTOP-7CV8A7M$,,,,843,2,Normal cmd.exe process termination
+C:\Program Files (x86)\ossec-agent\active-response\bin\restart-wazuh.exe,4689,2026-04-18 17:03:51.425922+00:00,DESKTOP-7CV8A7M$,,,,844,1,Wazuh agent restart activity normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:51.428362+00:00,DESKTOP-7CV8A7M$,,,,845,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:03:51.880442+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",846,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:51.976519+00:00,DESKTOP-7CV8A7M$,,,,847,2,Normal SecEdit.exe process termination
+,4688,2026-04-18 17:03:52.581934+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",848,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:52.735281+00:00,DESKTOP-7CV8A7M$,,,,849,2,Normal SecEdit.exe process termination
+C:\Windows\System32\backgroundTaskHost.exe,4689,2026-04-18 17:03:53.260035+00:00,pizza,,,,850,1,Normal backgroundTaskHost.exe termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:53.947054+00:00,DESKTOP-7CV8A7M$,,,,851,2,Normal PowerShell process termination
+,4688,2026-04-18 17:03:53.957922+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MaximumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",852,11,Wazuh agent querying password policy settings
+,4688,2026-04-18 17:03:53.971785+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,853,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:53.974234+00:00,DESKTOP-7CV8A7M$,,,,854,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:03:54.809824+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",855,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:54.903637+00:00,DESKTOP-7CV8A7M$,,,,856,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:54.930088+00:00,DESKTOP-7CV8A7M$,,,,857,2,Normal PowerShell process termination
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:54.950460+00:00,DESKTOP-7CV8A7M$,,,,858,1,Normal conhost.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:55.595554+00:00,DESKTOP-7CV8A7M$,,,,859,2,Normal PowerShell process termination
+,4688,2026-04-18 17:03:55.603416+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MaximumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",860,11,Wazuh agent querying password policy settings
+,4688,2026-04-18 17:03:55.611319+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,861,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:55.621250+00:00,DESKTOP-7CV8A7M$,,,,862,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:03:56.358492+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",863,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:56.435312+00:00,DESKTOP-7CV8A7M$,,,,864,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:57.093565+00:00,DESKTOP-7CV8A7M$,,,,865,2,Normal PowerShell process termination
+,4688,2026-04-18 17:03:57.101400+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",866,11,Wazuh agent querying password policy settings
+,4688,2026-04-18 17:03:57.114595+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,867,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:57.125641+00:00,DESKTOP-7CV8A7M$,,,,868,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:03:57.909866+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",869,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:57.985443+00:00,DESKTOP-7CV8A7M$,,,,870,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:58.645073+00:00,DESKTOP-7CV8A7M$,,,,871,2,Normal PowerShell process termination
+,4688,2026-04-18 17:03:58.658857+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordLength""; Remove-Item $env:TEMP\secpol.cfg",872,11,Wazuh agent querying password policy settings
+,4688,2026-04-18 17:03:58.672054+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,873,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:58.682661+00:00,DESKTOP-7CV8A7M$,,,,874,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:03:59.421320+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",875,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:59.510635+00:00,DESKTOP-7CV8A7M$,,,,876,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:00.196688+00:00,DESKTOP-7CV8A7M$,,,,877,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:00.205488+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutDuration""; Remove-Item $env:TEMP\secpol.cfg",878,11,Wazuh agent querying lockout policy settings
+,4688,2026-04-18 17:04:00.218889+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,879,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:00.229441+00:00,DESKTOP-7CV8A7M$,,,,880,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:04:01.053854+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",881,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:04:01.131521+00:00,DESKTOP-7CV8A7M$,,,,882,2,Normal SecEdit.exe process termination
+,4688,2026-04-18 17:04:08.662823+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,wmiadap.exe /F /T /R,883,6,Svchost spawning wmiadap with force flags
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:10.459768+00:00,DESKTOP-7CV8A7M$,,,,884,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:10.467949+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutBadCount""; Remove-Item $env:TEMP\secpol.cfg",885,11,Wazuh agent querying lockout policy settings
+,4688,2026-04-18 17:04:10.482485+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,886,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:10.485077+00:00,DESKTOP-7CV8A7M$,,,,887,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:04:11.412193+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",888,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:04:11.490917+00:00,DESKTOP-7CV8A7M$,,,,889,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:12.180555+00:00,DESKTOP-7CV8A7M$,,,,890,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:12.188211+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutBadCount""; Remove-Item $env:TEMP\secpol.cfg",891,11,Wazuh agent querying lockout policy settings
+,4688,2026-04-18 17:04:12.197067+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,892,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:12.207798+00:00,DESKTOP-7CV8A7M$,,,,893,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:04:12.966995+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",894,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:04:13.043539+00:00,DESKTOP-7CV8A7M$,,,,895,2,Normal SecEdit.exe process termination
+,4688,2026-04-18 17:04:13.693731+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,"""C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.24.25199.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe"" -Embedding",896,5,Svchost spawning WindowsPackageManagerServer process
+C:\Windows\System32\svchost.exe,4689,2026-04-18 17:04:14.451477+00:00,DESKTOP-7CV8A7M$,,,,897,1,Normal svchost.exe process termination
+C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.24.25199.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe,4689,2026-04-18 17:04:14.462906+00:00,pizza,,,,898,2,Normal WindowsPackageManagerServer termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:14.611315+00:00,DESKTOP-7CV8A7M$,,,,899,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:14.667257+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""ResetLockoutCount""; Remove-Item $env:TEMP\secpol.cfg",900,11,Wazuh agent querying lockout policy settings
+,4688,2026-04-18 17:04:14.687496+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,901,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:14.700537+00:00,DESKTOP-7CV8A7M$,,,,902,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:04:15.566854+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",903,8,PowerShell exporting security policy configuration
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:04:15.640753+00:00,DESKTOP-7CV8A7M$,,,,904,2,Normal SecEdit.exe process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:16.233452+00:00,DESKTOP-7CV8A7M$,,,,905,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:16.245062+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell -NoProfile -Command ""[bool](Get-CimInstance -Query 'SELECT * FROM Win32_UserAccount WHERE LocalAccount = TRUE AND SID LIKE ''S-1-5-21-%-501''' | Where-Object -Property Disabled)""",906,10,Wazuh agent querying disabled user accounts
+,4688,2026-04-18 17:04:16.258490+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,907,7,PowerShell spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:16.272083+00:00,DESKTOP-7CV8A7M$,,,,908,1,Normal conhost.exe process termination
+,4798,2026-04-18 17:04:18.150539+00:00,DESKTOP-7CV8A7M$,Administrator,,,909,3,User account enumeration event Administrator
+,4798,2026-04-18 17:04:18.150745+00:00,DESKTOP-7CV8A7M$,DefaultAccount,,,910,3,User account enumeration event DefaultAccount
+,4798,2026-04-18 17:04:18.150908+00:00,DESKTOP-7CV8A7M$,Guest,,,911,3,User account enumeration event Guest
+,4798,2026-04-18 17:04:18.151102+00:00,DESKTOP-7CV8A7M$,pizza,,,912,3,User account enumeration event pizza
+,4798,2026-04-18 17:04:18.151329+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,913,3,User account enumeration event WDAGUtilityAccount
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:04:18.245199+00:00,DESKTOP-7CV8A7M$,,,,914,2,Normal PowerShell process termination
+,4688,2026-04-18 17:04:18.253084+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,net user,915,9,Wazuh agent executing net user enumeration
+,4688,2026-04-18 17:04:18.263117+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\net.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,916,7,Net.exe spawning conhost with suspicious flags
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:04:18.274321+00:00,DESKTOP-7CV8A7M$,,,,917,1,Normal conhost.exe process termination
+,4688,2026-04-18 17:04:18.294191+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\net.exe,C:\WINDOWS\system32\net1 user,918,9,Net.exe spawning net1 user enumeration
+C:\Windows\SysWOW64\net1.exe,4689,2026-04-18 17:04:18.318396+00:00,DESKTOP-7CV8A7M$,,,,919,2,Normal net1.exe process termination

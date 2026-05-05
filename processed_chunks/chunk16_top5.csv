@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1095,3,User added to Administrators group event
+1054,2,EdgeWebView2 unzip utility process with complex arguments
+1057,2,EdgeWebView2 GPU process with disabled sandbox flag
+1070,2,MoUsoCoreWorker.exe from unusual UUS packages path
+1083,2,EdgeWebView2 from Widgets.exe with complex arguments

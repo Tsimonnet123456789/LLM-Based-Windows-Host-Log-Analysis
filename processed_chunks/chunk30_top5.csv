@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2058,4,Group membership change to Administrators
+2072,4,Group membership change to Administrators
+2040,3,usoclient with suspicious parameter TBhuTisziESnLIkw.4
+2062,2,rundll32 with AppXDeploymentExtensions
+2081,2,wermgr upload spawned by svchost

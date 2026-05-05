@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3148,11,Wazuh agent executing security policy query
+3109,3,Defender uninstalling event log manifest
+3112,3,Defender installing event log manifest
+3118,3,Defender uninstalling event log manifest
+3121,3,Defender installing event log manifest

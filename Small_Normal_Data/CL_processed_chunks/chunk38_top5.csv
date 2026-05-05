@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2598,3,EdgeWebView unzip utility with complex service parameters
+2640,2,msedge.exe unzip utility with complex service parameters
+2636,2,msedge.exe asset store utility with complex parameters
+2634,2,rundll32.exe with AppXDeploymentExtensions for shell refresh
+2627,2,rundll32.exe with EDGEHTML.dll for Windows Alarms

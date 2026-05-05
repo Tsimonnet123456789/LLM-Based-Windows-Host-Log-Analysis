@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3012,8,Upfc.exe with launchtype boot parameter suspicious
+3015,8,Upfc.exe process termination after suspicious launch
+3061,6,ClipRenew.exe suspicious clipboard utility execution
+3041,4,User account pizza added to group membership
+3034,3,Group membership change to Administrators group

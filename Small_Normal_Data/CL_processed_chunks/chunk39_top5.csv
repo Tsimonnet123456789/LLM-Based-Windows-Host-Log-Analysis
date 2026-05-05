@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2737,7,Ipconfig executed via PowerShell from pizza
+2735,7,PowerShell spawned by Terminal from pizza user
+2734,5,OpenConsole spawned by Terminal with headless mode
+2693,6,Command prompt spawned by explorer from pizza user
+2719,5,Pizza user enumerated Administrator account

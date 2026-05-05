@@ -1,0 +1,81 @@
+TargetUserName,Timestamp,SubjectUserName,EventID,ParentProcessName,CommandLine,ProcessName,RowID,Suspicion_Score,summary
+-,2026-04-20 18:08:00.906046+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s PrintDeviceConfigurationService,,210,1,Normal svchost service startup PrintDeviceConfigurationService
+DESKTOP-A3EGFSV$,2026-04-20 18:08:00.907724+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k NetworkService -p,,211,1,Normal svchost NetworkService startup process
+LOCAL SERVICE,2026-04-20 18:08:00.937368+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,212,1,Normal LOCAL SERVICE logon event
+,2026-04-20 18:08:00.937374+00:00,LOCAL SERVICE,4672,,,,213,1,Normal privilege assignment event
+SYSTEM,2026-04-20 18:08:00.977324+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,214,1,Normal SYSTEM logon event
+,2026-04-20 18:08:00.977329+00:00,SYSTEM,4672,,,,215,1,Normal privilege assignment event
+-,2026-04-20 18:08:00.978376+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService,,216,1,Normal svchost NcbService startup
+SYSTEM,2026-04-20 18:08:00.987871+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,217,1,Normal SYSTEM logon event
+,2026-04-20 18:08:00.987877+00:00,SYSTEM,4672,,,,218,1,Normal privilege assignment event
+-,2026-04-20 18:08:00.988930+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule,,219,1,Normal svchost Schedule service startup
+LOCAL SERVICE,2026-04-20 18:08:01.016644+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts,,220,1,Normal svchost lmhosts service startup
+LOCAL SERVICE,2026-04-20 18:08:01.017059+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetwork -p,,221,1,Normal svchost LocalServiceNoNetwork startup
+LOCAL SERVICE,2026-04-20 18:08:01.018610+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc,,222,1,Normal svchost TimeBrokerSvc startup
+LOCAL SERVICE,2026-04-20 18:08:01.020494+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s AppIDSvc,,223,1,Normal svchost AppIDSvc startup
+SYSTEM,2026-04-20 18:08:01.048046+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,224,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.048050+00:00,SYSTEM,4672,,,,225,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.049387+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UserProfileService -p -s ProfSvc,,226,1,Normal svchost ProfSvc startup
+LOCAL SERVICE,2026-04-20 18:08:01.091164+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s nsi,,227,1,Normal svchost nsi service startup
+SYSTEM,2026-04-20 18:08:01.117346+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,228,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.117352+00:00,SYSTEM,4672,,,,229,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.118601+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s UserManager,,230,1,Normal svchost UserManager service startup
+SYSTEM,2026-04-20 18:08:01.142315+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,231,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.142319+00:00,SYSTEM,4672,,,,232,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.143608+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -s WPDBusEnum,,233,1,Normal svchost WPDBusEnum startup
+-,2026-04-20 18:08:01.150652+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\Upfc.exe /launchtype boot /cv PF0rFyn/oUe5zqw37hhFWw.0,,234,9,Upfc.exe boot launchtype with suspicious parameters
+DESKTOP-A3EGFSV$,2026-04-20 18:08:01.155518+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netprofm -p -s netprofm,,235,1,Normal svchost netprofm service startup
+,2026-04-20 18:08:01.270605+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\upfc.exe,236,1,Normal upfc.exe process termination
+LOCAL SERVICE,2026-04-20 18:08:01.300644+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc,,237,1,Normal svchost DispBrokerDesktopSvc startup
+LOCAL SERVICE,2026-04-20 18:08:01.302795+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s EventLog,,238,1,Normal svchost EventLog service startup
+LOCAL SERVICE,2026-04-20 18:08:01.361208+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceRedirectionGuard -p -s EventSystem,,239,1,Normal svchost EventSystem service startup
+SYSTEM,2026-04-20 18:08:01.367140+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,240,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.367146+00:00,SYSTEM,4672,,,,241,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.369057+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s SysMain,,242,1,Normal svchost SysMain service startup
+SYSTEM,2026-04-20 18:08:01.371447+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,243,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.371452+00:00,SYSTEM,4672,,,,244,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.373110+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,taskhostw.exe ExploitGuardPolicy,,245,2,taskhostw.exe ExploitGuardPolicy from svchost parent
+-,2026-04-20 18:08:01.373178+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s Themes,,246,1,Normal svchost Themes service startup
+SYSTEM,2026-04-20 18:08:01.527386+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,247,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.527393+00:00,SYSTEM,4672,,,,248,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.530752+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcsRedirectionGuard -p -s SENS,,249,1,Normal svchost SENS service startup
+-,2026-04-20 18:08:01.548803+00:00,DESKTOP-A3EGFSV$,4688,,,,250,3,Process creation with missing parent and command data
+Administrators,2026-04-20 18:08:01.552925+00:00,DESKTOP-A3EGFSV$,4799,,,,251,1,Normal Administrators group membership event
+-,2026-04-20 18:08:01.564203+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\dxgiadaptercache.exe""",,252,2,dxgiadaptercache.exe from svchost parent
+DESKTOP-A3EGFSV$,2026-04-20 18:08:01.564533+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k NetworkService -p,,253,1,Normal svchost NetworkService startup
+,2026-04-20 18:08:01.574669+00:00,,1101,,,,254,1,Normal event log cleared event
+SYSTEM,2026-04-20 18:08:01.589342+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,255,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.589346+00:00,SYSTEM,4672,,,,256,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.590405+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder,,257,1,Normal svchost AudioEndpointBuilder startup
+LOCAL SERVICE,2026-04-20 18:08:01.604475+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s FontCache,,258,1,Normal svchost FontCache service startup
+LOCAL SERVICE,2026-04-20 18:08:01.739063+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p,,259,1,Normal svchost LocalServiceNetworkRestricted startup
+LOCAL SERVICE,2026-04-20 18:08:01.773619+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Dhcp,,260,1,Normal svchost Dhcp service startup
+,2026-04-20 18:08:01.781534+00:00,DESKTOP-A3EGFSV$,6416,,,,261,1,Normal device installation event
+,2026-04-20 18:08:01.787395+00:00,DESKTOP-A3EGFSV$,6416,,,,262,1,Normal device installation event
+SYSTEM,2026-04-20 18:08:01.924984+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,263,1,Normal SYSTEM logon event
+,2026-04-20 18:08:01.924990+00:00,SYSTEM,4672,,,,264,1,Normal privilege assignment event
+-,2026-04-20 18:08:01.926315+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TextInputManagementService,,265,1,Normal svchost TextInputManagementService startup
+LOCAL SERVICE,2026-04-20 18:08:01.999252+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s DusmSvc,,266,1,Normal svchost DusmSvc service startup
+LOCAL SERVICE,2026-04-20 18:08:02.039118+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceHttp -p,,267,1,Normal svchost LocalServiceHttp startup
+SYSTEM,2026-04-20 18:08:02.077559+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,268,1,Normal SYSTEM logon event
+,2026-04-20 18:08:02.077564+00:00,SYSTEM,4672,,,,269,1,Normal privilege assignment event
+-,2026-04-20 18:08:02.079441+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k appmodel -p -s StateRepository,,270,1,Normal svchost StateRepository service startup
+-,2026-04-20 18:08:02.158552+00:00,LOCAL SERVICE,4688,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\AUDIODG.EXE 0x0000000000000234 0x0000000000000450,,271,2,AUDIODG.EXE from svchost with hex parameters
+LOCAL SERVICE,2026-04-20 18:08:02.172411+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s Wcmsvc,,272,1,Normal svchost Wcmsvc service startup
+SYSTEM,2026-04-20 18:08:02.287035+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,273,1,Normal SYSTEM logon event
+,2026-04-20 18:08:02.287041+00:00,SYSTEM,4672,,,,274,1,Normal privilege assignment event
+-,2026-04-20 18:08:02.289261+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s ShellHWDetection,,275,1,Normal svchost ShellHWDetection service startup
+LOCAL SERVICE,2026-04-20 18:08:03.100168+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -s RmSvc,,276,1,Normal svchost RmSvc service startup
+SYSTEM,2026-04-20 18:08:03.167250+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,277,1,Normal SYSTEM logon event
+,2026-04-20 18:08:03.167255+00:00,SYSTEM,4672,,,,278,1,Normal privilege assignment event
+-,2026-04-20 18:08:03.175859+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\spoolsv.exe,,279,1,Normal spoolsv.exe print spooler startup
+pizza,2026-04-20 18:08:03.266275+00:00,DESKTOP-A3EGFSV$,4798,,,,280,2,User pizza group membership event
+LOCAL SERVICE,2026-04-20 18:08:03.312321+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetworkFirewall -p,,281,1,Normal svchost LocalServiceNoNetworkFirewall startup
+,2026-04-20 18:08:03.327045+00:00,,5033,,,,282,1,Normal Windows Firewall service startup
+DESKTOP-A3EGFSV$,2026-04-20 18:08:03.355400+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k NetworkService -p -s LanmanWorkstation,,283,1,Normal svchost LanmanWorkstation service startup
+-,2026-04-20 18:08:03.454412+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\ClipRenew.exe"" -e",,284,3,ClipRenew.exe from svchost with -e flag
+LOCAL SERVICE,2026-04-20 18:08:03.616804+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,taskhostw.exe TimeSyncTask,,285,2,taskhostw.exe TimeSyncTask from svchost parent
+LOCAL SERVICE,2026-04-20 18:08:03.680099+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNoNetwork -p -s DPS,,286,1,Normal svchost DPS service startup
+SYSTEM,2026-04-20 18:08:03.682285+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,287,1,Normal SYSTEM logon event
+,2026-04-20 18:08:03.682293+00:00,SYSTEM,4672,,,,288,1,Normal privilege assignment event
+-,2026-04-20 18:08:03.683435+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k utcsvc -p,,289,1,Normal svchost utcsvc service startup

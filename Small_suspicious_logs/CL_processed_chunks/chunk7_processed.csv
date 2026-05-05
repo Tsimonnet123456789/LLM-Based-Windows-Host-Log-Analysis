@@ -1,0 +1,81 @@
+TargetUserName,Timestamp,SubjectUserName,EventID,ParentProcessName,CommandLine,ProcessName,RowID,Suspicion_Score,summary
+,2026-04-20 18:08:22.184929+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,420,1,Normal process termination event
+-,2026-04-20 18:08:22.190367+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell -NoProfile -Command ""[bool](Get-CimInstance -Query 'SELECT * FROM Win32_UserAccount WHERE LocalAccount = TRUE AND SID LIKE ''S-1-5-21-%-501''' | Where-Object -Property Disabled)""",,421,9,Wazuh agent executing PowerShell user enumeration query
+-,2026-04-20 18:08:22.197899+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,422,2,PowerShell spawning conhost with forced version flag
+Administrator,2026-04-20 18:08:23.687996+00:00,DESKTOP-A3EGFSV$,4798,,,,423,1,User account enumeration event for Administrator
+DefaultAccount,2026-04-20 18:08:23.688280+00:00,DESKTOP-A3EGFSV$,4798,,,,424,1,User account enumeration event for DefaultAccount
+Guest,2026-04-20 18:08:23.688456+00:00,DESKTOP-A3EGFSV$,4798,,,,425,1,User account enumeration event for Guest
+pizza,2026-04-20 18:08:23.688648+00:00,DESKTOP-A3EGFSV$,4798,,,,426,1,User account enumeration event for pizza
+WDAGUtilityAccount,2026-04-20 18:08:23.688913+00:00,DESKTOP-A3EGFSV$,4798,,,,427,1,User account enumeration event for WDAGUtilityAccount
+,2026-04-20 18:08:23.761965+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,428,1,Normal PowerShell process termination
+,2026-04-20 18:08:23.763880+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,429,1,Normal conhost process termination
+-,2026-04-20 18:08:23.772396+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,net user,,430,8,Wazuh agent executing net user enumeration command
+-,2026-04-20 18:08:23.779457+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,431,2,Net.exe spawning conhost with forced version flag
+-,2026-04-20 18:08:23.812777+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,C:\WINDOWS\system32\net1 user,,432,2,Net.exe spawning net1 user enumeration
+,2026-04-20 18:08:23.839823+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\net1.exe,433,1,Normal net1 process termination
+,2026-04-20 18:08:23.841015+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\net.exe,434,1,Normal net process termination
+,2026-04-20 18:08:23.842255+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,435,1,Normal conhost process termination
+-,2026-04-20 18:08:23.842617+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,net user,,436,8,Wazuh agent executing net user enumeration command
+-,2026-04-20 18:08:23.846731+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,437,2,Net.exe spawning conhost with forced version flag
+-,2026-04-20 18:08:23.869003+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,C:\WINDOWS\system32\net1 user,,438,2,Net.exe spawning net1 user enumeration
+,2026-04-20 18:08:23.881788+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\net1.exe,439,1,Normal net1 process termination
+,2026-04-20 18:08:23.882887+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\net.exe,440,1,Normal net process termination
+,2026-04-20 18:08:23.884275+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,441,1,Normal conhost process termination
+-,2026-04-20 18:08:23.889462+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v legalnoticetext,,442,7,Wazuh agent querying registry legal notice policy
+-,2026-04-20 18:08:23.897758+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\reg.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,443,2,Reg.exe spawning conhost with forced version flag
+,2026-04-20 18:08:23.921526+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\reg.exe,444,1,Normal reg process termination
+,2026-04-20 18:08:23.922468+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,445,1,Normal conhost process termination
+-,2026-04-20 18:08:23.923100+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system /v legalnoticecaption,,446,7,Wazuh agent querying registry legal notice caption
+-,2026-04-20 18:08:23.930019+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\reg.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,447,2,Reg.exe spawning conhost with forced version flag
+,2026-04-20 18:08:23.950407+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\reg.exe,448,1,Normal reg process termination
+,2026-04-20 18:08:23.951250+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,449,1,Normal conhost process termination
+-,2026-04-20 18:08:23.970097+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Credential Validation""",,450,8,Wazuh agent querying audit policy credential validation
+-,2026-04-20 18:08:23.976099+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,451,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.014397+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,452,1,Normal auditpol process termination
+,2026-04-20 18:08:24.015806+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,453,1,Normal conhost process termination
+-,2026-04-20 18:08:24.015997+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Application Group Management""",,454,8,Wazuh agent querying audit policy application group management
+-,2026-04-20 18:08:24.021326+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,455,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.045202+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,456,1,Normal auditpol process termination
+,2026-04-20 18:08:24.046518+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,457,1,Normal conhost process termination
+-,2026-04-20 18:08:24.046886+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Security Group Management""",,458,8,Wazuh agent querying audit policy security group management
+-,2026-04-20 18:08:24.051662+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,459,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.076420+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,460,1,Normal auditpol process termination
+,2026-04-20 18:08:24.077599+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,461,1,Normal conhost process termination
+-,2026-04-20 18:08:24.077799+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""User Account Management""",,462,8,Wazuh agent querying audit policy user account management
+-,2026-04-20 18:08:24.082394+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,463,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.105934+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,464,1,Normal auditpol process termination
+,2026-04-20 18:08:24.107038+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,465,1,Normal conhost process termination
+-,2026-04-20 18:08:24.107437+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Plug and Play Events""",,466,8,Wazuh agent querying audit policy plug and play events
+-,2026-04-20 18:08:24.111839+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,467,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.138189+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,468,1,Normal auditpol process termination
+,2026-04-20 18:08:24.139370+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,469,1,Normal conhost process termination
+-,2026-04-20 18:08:24.139874+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Process Creation""",,470,8,Wazuh agent querying audit policy process creation
+-,2026-04-20 18:08:24.144562+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,471,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.169048+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,472,1,Normal auditpol process termination
+,2026-04-20 18:08:24.170288+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,473,1,Normal conhost process termination
+-,2026-04-20 18:08:24.170536+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Account Lockout""",,474,8,Wazuh agent querying audit policy account lockout
+-,2026-04-20 18:08:24.175404+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,475,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.200132+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,476,1,Normal auditpol process termination
+,2026-04-20 18:08:24.201307+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,477,1,Normal conhost process termination
+-,2026-04-20 18:08:24.201664+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Group Membership""",,478,8,Wazuh agent querying audit policy group membership
+-,2026-04-20 18:08:24.207176+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,479,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.231876+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,480,1,Normal auditpol process termination
+,2026-04-20 18:08:24.233131+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,481,1,Normal conhost process termination
+-,2026-04-20 18:08:24.233339+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Logoff""",,482,8,Wazuh agent querying audit policy logoff events
+-,2026-04-20 18:08:24.237991+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,483,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.262432+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,484,1,Normal auditpol process termination
+,2026-04-20 18:08:24.263697+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,485,1,Normal conhost process termination
+-,2026-04-20 18:08:24.263887+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Logon""",,486,8,Wazuh agent querying audit policy logon events
+-,2026-04-20 18:08:24.268827+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,487,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.292303+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,488,1,Normal auditpol process termination
+,2026-04-20 18:08:24.293385+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,489,1,Normal conhost process termination
+-,2026-04-20 18:08:24.293932+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Other Logon/Logoff Events""",,490,8,Wazuh agent querying audit policy other logon logoff events
+-,2026-04-20 18:08:24.298447+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,491,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.321243+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,492,1,Normal auditpol process termination
+,2026-04-20 18:08:24.322327+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,493,1,Normal conhost process termination
+-,2026-04-20 18:08:24.322716+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Special Logon""",,494,8,Wazuh agent querying audit policy special logon
+-,2026-04-20 18:08:24.328297+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,495,2,Auditpol spawning conhost with forced version flag
+,2026-04-20 18:08:24.351858+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SysWOW64\auditpol.exe,496,1,Normal auditpol process termination
+,2026-04-20 18:08:24.352926+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\conhost.exe,497,1,Normal conhost process termination
+-,2026-04-20 18:08:24.353371+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Detailed File Share""",,498,8,Wazuh agent querying audit policy detailed file share
+-,2026-04-20 18:08:24.357937+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,,499,2,Auditpol spawning conhost with forced version flag

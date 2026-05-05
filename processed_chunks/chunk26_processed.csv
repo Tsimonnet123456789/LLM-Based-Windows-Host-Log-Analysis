@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.527126+00:00,DESKTOP-7CV8A7M$,,,,1750,1,Normal conhost process termination event
+,4688,2026-04-18 17:41:50.531923+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1751,2,Conhost spawned by auditpol with ForceV1 flag
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.560068+00:00,DESKTOP-7CV8A7M$,,,,1752,1,Normal auditpol process termination
+,4688,2026-04-18 17:41:50.562508+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Security State Change""",1753,2,Wazuh agent executing auditpol security query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.562840+00:00,DESKTOP-7CV8A7M$,,,,1754,1,Normal conhost process termination event
+,4688,2026-04-18 17:41:50.571751+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1755,2,Conhost spawned by auditpol with ForceV1 flag
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.599352+00:00,DESKTOP-7CV8A7M$,,,,1756,1,Normal auditpol process termination
+,4688,2026-04-18 17:41:50.601843+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Security System Extension""",1757,2,Wazuh agent executing auditpol system extension query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.605259+00:00,DESKTOP-7CV8A7M$,,,,1758,1,Normal conhost process termination event
+,4688,2026-04-18 17:41:50.611479+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1759,2,Conhost spawned by auditpol with ForceV1 flag
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.637451+00:00,DESKTOP-7CV8A7M$,,,,1760,1,Normal auditpol process termination
+,4688,2026-04-18 17:41:50.639656+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""System Integrity""",1761,2,Wazuh agent executing auditpol system integrity query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.641735+00:00,DESKTOP-7CV8A7M$,,,,1762,1,Normal conhost process termination event
+,4688,2026-04-18 17:41:50.645979+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1763,2,Conhost spawned by auditpol with ForceV1 flag
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.672516+00:00,DESKTOP-7CV8A7M$,,,,1764,1,Normal auditpol process termination
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.693113+00:00,DESKTOP-7CV8A7M$,,,,1765,1,Normal conhost process termination event
+C:\Windows\System32\SppExtComObj.Exe,4689,2026-04-18 17:42:02.178524+00:00,DESKTOP-7CV8A7M$,,,,1766,1,Normal SppExtComObj process termination
+C:\Windows\System32\sppsvc.exe,4689,2026-04-18 17:42:02.183615+00:00,DESKTOP-7CV8A7M$,,,,1767,1,Normal sppsvc process termination
+C:\Windows\System32\services.exe,4624,2026-04-18 17:42:04.167179+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1768,1,Normal SYSTEM logon via services.exe
+,4627,2026-04-18 17:42:04.167212+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1769,1,Normal SYSTEM logon event
+,4672,2026-04-18 17:42:04.167280+00:00,SYSTEM,,,,1770,1,Normal SYSTEM privilege use event
+,4688,2026-04-18 17:42:04.168655+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s BDESVC,1771,1,Normal svchost BDESVC service startup
+,4688,2026-04-18 17:42:14.515490+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\dxgiadaptercache.exe""",1772,1,Normal dxgiadaptercache process spawn
+C:\Windows\System32\dxgiadaptercache.exe,4689,2026-04-18 17:42:14.557098+00:00,DESKTOP-7CV8A7M$,,,,1773,1,Normal dxgiadaptercache process termination
+,4688,2026-04-18 17:42:15.183130+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,/QuitInfo:00000000000002E0;00000000000002E4; ,1774,1,Normal svchost process with QuitInfo parameter
+,5058,2026-04-18 17:42:19.001652+00:00,LOCAL SERVICE,,,,1775,1,Normal LOCAL SERVICE key operation event
+,5061,2026-04-18 17:42:19.002544+00:00,LOCAL SERVICE,,,,1776,1,Normal LOCAL SERVICE key operation event
+,5059,2026-04-18 17:42:19.002741+00:00,LOCAL SERVICE,,,,1777,1,Normal LOCAL SERVICE key operation event
+,5059,2026-04-18 17:42:19.009066+00:00,LOCAL SERVICE,,,,1778,1,Normal LOCAL SERVICE key operation event
+,4738,2026-04-18 17:42:19.037245+00:00,DESKTOP-7CV8A7M$,pizza,,,1779,3,User account pizza modified by system
+C:\Windows\System32\svchost.exe,4648,2026-04-18 17:42:19.048168+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1780,13,svchost explicit credential use with suspicious email
+C:\Windows\System32\svchost.exe,4624,2026-04-18 17:42:19.048191+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1781,13,Logon with suspicious pizzahuthacker email account
+,4627,2026-04-18 17:42:19.048208+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1782,13,Logon event with suspicious pizzahuthacker email
+C:\Windows\System32\svchost.exe,4624,2026-04-18 17:42:19.048244+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1783,13,Logon with suspicious pizzahuthacker email account
+,4627,2026-04-18 17:42:19.048254+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1784,13,Logon event with suspicious pizzahuthacker email
+,4672,2026-04-18 17:42:19.048290+00:00,pizzahuthacker@gmail.com,,,,1785,13,Privilege use by suspicious pizzahuthacker email
+,5059,2026-04-18 17:42:19.057043+00:00,LOCAL SERVICE,,,,1786,1,Normal LOCAL SERVICE key operation event
+,5059,2026-04-18 17:42:19.104170+00:00,LOCAL SERVICE,,,,1787,1,Normal LOCAL SERVICE key operation event
+,4738,2026-04-18 17:42:19.156815+00:00,DESKTOP-7CV8A7M$,pizza,,,1788,3,User account pizza modified by system
+C:\Windows\System32\lsass.exe,4648,2026-04-18 17:42:19.165901+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1789,13,lsass explicit credential use with suspicious email
+C:\Windows\System32\lsass.exe,4624,2026-04-18 17:42:19.165937+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1790,13,Logon with suspicious pizzahuthacker email account
+,4627,2026-04-18 17:42:19.165972+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1791,13,Logon event with suspicious pizzahuthacker email
+C:\Windows\System32\lsass.exe,4624,2026-04-18 17:42:19.166107+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1792,13,Logon with suspicious pizzahuthacker email account
+,4627,2026-04-18 17:42:19.166124+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,1793,13,Logon event with suspicious pizzahuthacker email
+,4672,2026-04-18 17:42:19.166138+00:00,pizzahuthacker@gmail.com,,,,1794,13,Privilege use by suspicious pizzahuthacker email
+,4634,2026-04-18 17:42:19.166666+00:00,,pizza,,,1795,3,User pizza logoff event
+,4634,2026-04-18 17:42:19.174341+00:00,,pizza,,,1796,3,User pizza logoff event
+,4799,2026-04-18 17:42:19.251795+00:00,DESKTOP-7CV8A7M$,Administrators,,,1797,2,Group membership change to Administrators
+C:\Windows\System32\services.exe,4624,2026-04-18 17:42:19.717733+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1798,1,Normal SYSTEM logon via services.exe
+,4627,2026-04-18 17:42:19.717745+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1799,1,Normal SYSTEM logon event
+,4672,2026-04-18 17:42:19.717754+00:00,SYSTEM,,,,1800,1,Normal SYSTEM privilege use event
+,4688,2026-04-18 17:42:19.719265+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k CameraMonitor,1801,1,Normal svchost CameraMonitor service startup
+,4688,2026-04-18 17:42:19.900225+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,sihost.exe,1802,2,sihost spawned by svchost as pizza user
+,4688,2026-04-18 17:42:19.901949+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc,1803,2,svchost spawned as pizza user from services
+,4688,2026-04-18 17:42:19.922523+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,taskhostw.exe,1804,1,Normal taskhostw process spawn
+,4688,2026-04-18 17:42:19.986042+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s webthreatdefusersvc,1805,2,svchost spawned as pizza user from services
+,4688,2026-04-18 17:42:20.214405+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService,1806,2,svchost spawned as pizza user from services
+,4688,2026-04-18 17:42:20.416683+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E},1807,2,taskhostw spawned by svchost as pizza user
+,4688,2026-04-18 17:42:20.428885+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe,1808,2,taskhostw spawned by svchost as pizza user
+,4688,2026-04-18 17:42:20.459869+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /c",1809,1,Normal MicrosoftEdgeUpdate process spawn
+,4688,2026-04-18 17:42:20.510302+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe,1810,2,taskhostw spawned by svchost as pizza user
+,4688,2026-04-18 17:42:21.050396+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /ua /installsource core",1811,1,Normal MicrosoftEdgeUpdate self-spawn
+,4688,2026-04-18 17:42:21.870914+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\winlogon.exe,C:\WINDOWS\system32\userinit.exe,1812,2,userinit spawned by winlogon as pizza user
+,5058,2026-04-18 17:42:21.989388+00:00,pizza,,,,1813,1,Normal pizza user key operation event
+,5061,2026-04-18 17:42:21.990688+00:00,pizza,,,,1814,1,Normal pizza user key operation event
+,5059,2026-04-18 17:42:21.993866+00:00,pizza,,,,1815,1,Normal pizza user key operation event
+,4688,2026-04-18 17:42:22.107525+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s CDPSvc,1816,1,Normal svchost CDPSvc service startup
+,4688,2026-04-18 17:42:22.140560+00:00,pizza,-,C:\Windows\System32\userinit.exe,C:\WINDOWS\Explorer.EXE,1817,1,Normal Explorer.EXE spawn by userinit
+,4688,2026-04-18 17:42:22.271915+00:00,pizza,-,C:\Windows\System32\sihost.exe,"""C:\Windows\System32\ShellHost.exe""",1818,1,Normal ShellHost spawn by sihost
+,5058,2026-04-18 17:42:22.624544+00:00,LOCAL SERVICE,,,,1819,1,Normal LOCAL SERVICE key operation event
+,5061,2026-04-18 17:42:22.624842+00:00,LOCAL SERVICE,,,,1820,1,Normal LOCAL SERVICE key operation event
+,5059,2026-04-18 17:42:22.625599+00:00,LOCAL SERVICE,,,,1821,1,Normal LOCAL SERVICE key operation event
+,4688,2026-04-18 17:42:23.686453+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc,1822,2,svchost spawned as pizza user from services
+C:\Windows\System32\services.exe,4624,2026-04-18 17:42:23.961227+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1823,1,Normal SYSTEM logon via services.exe
+,4627,2026-04-18 17:42:23.961237+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1824,1,Normal SYSTEM logon event
+,4672,2026-04-18 17:42:23.961248+00:00,SYSTEM,,,,1825,1,Normal SYSTEM privilege use event
+,4688,2026-04-18 17:42:23.965235+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Appinfo,1826,1,Normal svchost Appinfo service startup
+,4688,2026-04-18 17:42:25.178867+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5},1827,2,DllHost spawned by svchost as pizza user
+C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,4689,2026-04-18 17:42:25.308996+00:00,DESKTOP-7CV8A7M$,,,,1828,1,Normal MicrosoftEdgeUpdate process termination
+,4688,2026-04-18 17:42:25.452177+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\sihost.exe,"""C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe"" /tileid MicrosoftWindows.Client.CBS_cw5n1h2txyewy!CrossDeviceResumeApp",1829,1,Normal CrossDeviceResume spawn by sihost

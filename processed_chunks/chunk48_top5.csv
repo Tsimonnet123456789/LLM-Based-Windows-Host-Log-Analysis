@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3367,9,Wazuh agent querying audit policy object access events
+3363,9,Wazuh agent querying audit policy file share events
+3359,9,Wazuh agent querying audit policy detailed file share
+3355,9,Wazuh agent querying audit policy special logon
+3351,9,Wazuh agent querying audit policy logon logoff events

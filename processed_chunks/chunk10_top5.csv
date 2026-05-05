@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+663,11,MSI installer from PowerShell temp directory
+679,8,ICACLS reset permissions ossec-agent directory
+683,8,ICACLS inheritance level reset ossec-agent
+688,8,ICACLS grant admin full ossec-agent
+692,8,ICACLS grant SYSTEM full ossec-agent

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3480,5,Wazuh agent executing auditpol policy query
+3507,4,SLUI.exe with auto-activation licensing parameters
+3483,3,Suspicious QuitInfo parameter in command line
+3443,3,EdgeWebView2 launched from SearchHost with complex arguments
+3479,2,Auditpol.exe process termination detected

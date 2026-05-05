@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+,4688,2026-04-18 17:12:03.627323+00:00,pizza,-,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=asset_store.mojom.AssetStoreService --lang=en-US --service-sandbox-type=asset_store_service --video-capture-use-gpu-memory-buffer --skip-read-main-dll --metrics-shmem-handle=5064,i,14853164326733233498,15581768710486973014,524288 --field-trial-handle=2416,i,3242394225898051832,3929336231479576700,262144 --variations-seed-version --pseudonymization-salt-handle=2420,i,8699853921611400777,3823603960447899792,4 --trace-process-track-uuid=3190708994745248135 --mojo-platform-channel-handle=4968 /prefetch:14",1330,2,Edge browser utility subprocess with standard parameters
+,4688,2026-04-18 17:12:03.699135+00:00,pizza,-,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=renderer --instant-process --pdf-upsell-enabled --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=7 --time-ticks-at-unix-epoch=-1776531592133734 --launch-time-ticks=731460231 --skip-read-main-dll --metrics-shmem-handle=4832,i,6501073074827327842,8307767735002445030,2097152 --field-trial-handle=2416,i,3242394225898051832,3929336231479576700,262144 --variations-seed-version --pseudonymization-salt-handle=2420,i,8699853921611400777,3823603960447899792,4 --trace-process-track-uuid=3190708992871164437 --mojo-platform-channel-handle=4880 /prefetch:1",1331,2,Edge renderer process with normal initialization parameters
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,4689,2026-04-18 17:12:03.878994+00:00,pizza,,,,1332,1,"Edge process termination event, normal activity"
+,4688,2026-04-18 17:41:09.627207+00:00,-,-,,,1334,3,Process creation with missing critical data fields
+,4696,2026-04-18 17:41:09.627325+00:00,-,-,,,1335,2,Audit event with incomplete subject information
+,4826,2026-04-18 17:41:09.627329+00:00,-,,,,1336,2,Audit event with missing process and user details
+,4688,2026-04-18 17:41:09.641771+00:00,-,-,,,1337,3,Process creation with missing critical data fields
+,4688,2026-04-18 17:41:10.526890+00:00,-,-,C:\Windows\System32\smss.exe,,1338,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.014133+00:00,-,-,C:\Windows\System32\smss.exe,,1339,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.127144+00:00,-,-,C:\Windows\System32\smss.exe,,1340,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.238792+00:00,-,-,C:\Windows\System32\smss.exe,,1341,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.247351+00:00,-,-,C:\Windows\System32\smss.exe,,1342,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.252092+00:00,-,-,C:\Windows\System32\smss.exe,,1343,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.276667+00:00,-,-,C:\Windows\System32\smss.exe,,1344,2,Process from smss.exe with missing command line data
+,4688,2026-04-18 17:41:11.432085+00:00,-,-,C:\Windows\System32\wininit.exe,,1345,1,Normal wininit.exe child process creation
+,4688,2026-04-18 17:41:11.492933+00:00,-,-,C:\Windows\System32\wininit.exe,,1346,1,Normal wininit.exe child process creation
+C:\Windows\System32\lsass.exe,6417,2026-04-18 17:41:11.586020+00:00,,,,,1347,1,"LSASS security event, normal system activity"
+,4608,2026-04-18 17:41:11.589296+00:00,,,,,1348,1,System audit initialization event
+,4624,2026-04-18 17:41:11.598160+00:00,-,SYSTEM,,,1349,1,"SYSTEM account logon event, normal startup"
+,4627,2026-04-18 17:41:11.598173+00:00,ANONYMOUS LOGON,SYSTEM,,,1350,1,"Anonymous logon to SYSTEM, normal startup"
+,4902,2026-04-18 17:41:11.807154+00:00,,,,,1351,1,System audit event during startup sequence
+C:\Windows\System32\wininit.exe,4648,2026-04-18 17:41:11.866837+00:00,DESKTOP-7CV8A7M$,UMFD-0,,,1352,1,"wininit.exe creating UMFD session, normal"
+C:\Windows\System32\wininit.exe,4624,2026-04-18 17:41:11.866858+00:00,DESKTOP-7CV8A7M$,UMFD-0,,,1353,1,"UMFD-0 logon from wininit, normal startup"
+,4627,2026-04-18 17:41:11.866869+00:00,DESKTOP-7CV8A7M$,UMFD-0,,,1354,1,"UMFD-0 session creation event, normal"
+C:\Windows\System32\winlogon.exe,4648,2026-04-18 17:41:11.869070+00:00,DESKTOP-7CV8A7M$,UMFD-1,,,1355,1,winlogon.exe creating UMFD-1 session
+C:\Windows\System32\winlogon.exe,4624,2026-04-18 17:41:11.869081+00:00,DESKTOP-7CV8A7M$,UMFD-1,,,1356,1,"UMFD-1 logon from winlogon, normal startup"
+,4627,2026-04-18 17:41:11.869091+00:00,DESKTOP-7CV8A7M$,UMFD-1,,,1357,1,"UMFD-1 session creation event, normal"
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:11.889429+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1358,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:11.889439+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1359,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:11.889448+00:00,SYSTEM,,,,1360,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:11.913288+00:00,DESKTOP-7CV8A7M$,UMFD-0,C:\Windows\System32\wininit.exe,"""fontdrvhost.exe""",1361,1,"fontdrvhost.exe from wininit, normal startup"
+,4688,2026-04-18 17:41:11.913290+00:00,DESKTOP-7CV8A7M$,UMFD-1,C:\Windows\System32\winlogon.exe,"""fontdrvhost.exe""",1362,1,"fontdrvhost.exe from winlogon, normal startup"
+,4688,2026-04-18 17:41:11.916645+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p,1363,1,svchost.exe DcomLaunch from services.exe
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:12.178192+00:00,DESKTOP-7CV8A7M$,NETWORK SERVICE,,,1364,1,NETWORK SERVICE logon from services.exe
+,4627,2026-04-18 17:41:12.178204+00:00,DESKTOP-7CV8A7M$,NETWORK SERVICE,,,1365,1,NETWORK SERVICE session creation event
+,4672,2026-04-18 17:41:12.178211+00:00,NETWORK SERVICE,,,,1366,1,NETWORK SERVICE privilege assignment event
+,4688,2026-04-18 17:41:12.215033+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k RPCSS -p,1367,1,svchost.exe RPCSS from services.exe
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:12.331381+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1368,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:12.331392+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1369,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:12.331411+00:00,SYSTEM,,,,1370,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:12.332544+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p -s LSM,1371,1,svchost.exe DcomLaunch LSM from services.exe
+C:\Windows\System32\winlogon.exe,4648,2026-04-18 17:41:12.479954+00:00,DESKTOP-7CV8A7M$,DWM-1,,,1372,1,winlogon.exe creating DWM-1 session
+C:\Windows\System32\winlogon.exe,4624,2026-04-18 17:41:12.479963+00:00,DESKTOP-7CV8A7M$,DWM-1,,,1373,1,"DWM-1 logon from winlogon, normal"
+,4627,2026-04-18 17:41:12.479973+00:00,DESKTOP-7CV8A7M$,DWM-1,,,1374,1,"DWM-1 session creation event, normal"
+C:\Windows\System32\winlogon.exe,4624,2026-04-18 17:41:12.479984+00:00,DESKTOP-7CV8A7M$,DWM-1,,,1375,1,"DWM-1 logon from winlogon, normal"
+,4627,2026-04-18 17:41:12.480003+00:00,DESKTOP-7CV8A7M$,DWM-1,,,1376,1,"DWM-1 session creation event, normal"
+,4672,2026-04-18 17:41:12.480011+00:00,DWM-1,,,,1377,1,"DWM-1 privilege assignment event, normal"
+,4672,2026-04-18 17:41:12.480011+00:00,DWM-1,,,,1378,1,"DWM-1 privilege assignment event, normal"
+,4688,2026-04-18 17:41:12.483585+00:00,DESKTOP-7CV8A7M$,DWM-1,C:\Windows\System32\winlogon.exe,"""dwm.exe""",1379,1,"dwm.exe from winlogon, normal startup"
+,4688,2026-04-18 17:41:12.510199+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\winlogon.exe,"""LogonUI.exe"" /flags:0x2 /state0:0xa3bd4055 /state1:0x41c64e6d",1380,1,"LogonUI.exe from winlogon, normal startup"
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:12.770933+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1381,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:12.770952+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1382,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:12.770962+00:00,SYSTEM,,,,1383,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:12.773136+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k GPSvcGroup,1384,1,svchost.exe GPSvcGroup from services.exe
+,4688,2026-04-18 17:41:12.777197+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k NetworkService -p,1385,1,svchost.exe NetworkService from services.exe
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:12.816580+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,,,1386,1,LOCAL SERVICE logon from services.exe
+,4627,2026-04-18 17:41:12.816648+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,,,1387,1,LOCAL SERVICE session creation event
+,4672,2026-04-18 17:41:12.816662+00:00,LOCAL SERVICE,,,,1388,1,LOCAL SERVICE privilege assignment event
+,4688,2026-04-18 17:41:12.849394+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts,1389,1,svchost.exe LocalServiceNetworkRestricted lmhosts
+,4688,2026-04-18 17:41:12.849398+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNoNetwork -p,1390,1,svchost.exe LocalServiceNoNetwork from services.exe
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:12.893536+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1391,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:12.893545+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1392,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:12.893555+00:00,SYSTEM,,,,1393,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:12.894802+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService,1394,1,svchost.exe LocalSystemNetworkRestricted NcbService
+,4688,2026-04-18 17:41:12.918528+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s TimeBrokerSvc,1395,1,svchost.exe LocalServiceNetworkRestricted TimeBrokerSvc
+,4688,2026-04-18 17:41:12.948000+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalServiceNetworkRestricted -p -s AppIDSvc,1396,1,svchost.exe LocalServiceNetworkRestricted AppIDSvc
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:13.015888+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1397,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:13.015898+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1398,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:13.015907+00:00,SYSTEM,,,,1399,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:13.026016+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule,1400,1,svchost.exe netsvcs Schedule from services.exe
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:13.288704+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1401,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:13.288713+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1402,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:13.288723+00:00,SYSTEM,,,,1403,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:13.291204+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UserProfileService -p -s ProfSvc,1404,1,svchost.exe UserProfileService ProfSvc
+C:\Windows\System32\services.exe,4624,2026-04-18 17:41:13.330414+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1405,1,"SYSTEM logon from services.exe, normal"
+,4627,2026-04-18 17:41:13.330423+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,1406,1,"SYSTEM session creation event, normal"
+,4672,2026-04-18 17:41:13.330442+00:00,SYSTEM,,,,1407,1,"SYSTEM privilege assignment event, normal"
+,4688,2026-04-18 17:41:13.331947+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s PrintDeviceConfigurationService,1408,1,svchost.exe PrintDeviceConfigurationService
+,4688,2026-04-18 17:41:13.352888+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s DispBrokerDesktopSvc,1409,1,svchost.exe LocalService DispBrokerDesktopSvc
+,4688,2026-04-18 17:41:13.411232+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s nsi,1410,1,svchost.exe LocalService nsi from services.exe

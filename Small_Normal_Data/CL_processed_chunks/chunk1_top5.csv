@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+17,3,Anonymous logon to SYSTEM account detected
+1,1,Process creation event with missing critical data
+2,1,Credential manager event with missing process details
+3,1,Clipboard event with missing process information
+4,1,Process creation event with missing critical data

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2,11,Clearing Security event log via wevtutil
+6,11,Clearing System event log via wevtutil
+13,11,Clearing Application event log via wevtutil
+3,10,Event log cleared EventID 1102
+4,9,wevtutil.exe process termination after log clear

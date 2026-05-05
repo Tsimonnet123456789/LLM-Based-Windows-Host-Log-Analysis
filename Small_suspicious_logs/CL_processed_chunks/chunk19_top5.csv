@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1269,11,Privilege escalation attempt via runas
+1291,11,Privilege escalation attempt via runas
+1312,11,Privilege escalation attempt via runas
+1271,10,Failed Administrator login after runas
+1270,9,Administrator credential validation attempt

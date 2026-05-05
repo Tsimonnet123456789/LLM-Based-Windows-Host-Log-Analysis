@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:49.899174+00:00,DESKTOP-7CV8A7M$,,,,1680,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.901283+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Account Lockout""",1681,3,Wazuh agent executing auditpol audit policy query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:49.903450+00:00,DESKTOP-7CV8A7M$,,,,1682,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.907520+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1683,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:49.932510+00:00,DESKTOP-7CV8A7M$,,,,1684,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.934717+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Group Membership""",1685,3,Wazuh agent executing auditpol group membership query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:49.935034+00:00,DESKTOP-7CV8A7M$,,,,1686,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.944862+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1687,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:49.970720+00:00,DESKTOP-7CV8A7M$,,,,1688,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.973373+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Logoff""",1689,3,Wazuh agent executing auditpol logoff query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:49.975637+00:00,DESKTOP-7CV8A7M$,,,,1690,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:49.980940+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1691,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.007423+00:00,DESKTOP-7CV8A7M$,,,,1692,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.009594+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Logon""",1693,3,Wazuh agent executing auditpol logon query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.011581+00:00,DESKTOP-7CV8A7M$,,,,1694,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.015610+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1695,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.043243+00:00,DESKTOP-7CV8A7M$,,,,1696,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.045399+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Other Logon/Logoff Events""",1697,3,Wazuh agent executing auditpol logon/logoff events query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.047789+00:00,DESKTOP-7CV8A7M$,,,,1698,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.051977+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1699,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.078581+00:00,DESKTOP-7CV8A7M$,,,,1700,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.080774+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Special Logon""",1701,3,Wazuh agent executing auditpol special logon query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.081072+00:00,DESKTOP-7CV8A7M$,,,,1702,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.090792+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1703,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.115543+00:00,DESKTOP-7CV8A7M$,,,,1704,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.117607+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Detailed File Share""",1705,3,Wazuh agent executing auditpol file share query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.119600+00:00,DESKTOP-7CV8A7M$,,,,1706,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.123838+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1707,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.149033+00:00,DESKTOP-7CV8A7M$,,,,1708,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.151123+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""File Share""",1709,3,Wazuh agent executing auditpol file share query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.153584+00:00,DESKTOP-7CV8A7M$,,,,1710,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.157907+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1711,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.183437+00:00,DESKTOP-7CV8A7M$,,,,1712,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.186880+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Other Object Access Events""",1713,3,Wazuh agent executing auditpol object access query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.189121+00:00,DESKTOP-7CV8A7M$,,,,1714,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.194298+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1715,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.222288+00:00,DESKTOP-7CV8A7M$,,,,1716,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.224453+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Removable Storage""",1717,3,Wazuh agent executing auditpol removable storage query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.226519+00:00,DESKTOP-7CV8A7M$,,,,1718,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.230944+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1719,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.256817+00:00,DESKTOP-7CV8A7M$,,,,1720,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.258997+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Audit Policy Change""",1721,3,Wazuh agent executing auditpol audit policy change query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.261192+00:00,DESKTOP-7CV8A7M$,,,,1722,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.265362+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1723,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.291035+00:00,DESKTOP-7CV8A7M$,,,,1724,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.293186+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Authentication Policy Change""",1725,3,Wazuh agent executing auditpol authentication policy query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.295807+00:00,DESKTOP-7CV8A7M$,,,,1726,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.299997+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1727,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.327946+00:00,DESKTOP-7CV8A7M$,,,,1728,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.330566+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Authorization Policy Change""",1729,3,Wazuh agent executing auditpol authorization policy query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.332611+00:00,DESKTOP-7CV8A7M$,,,,1730,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.336718+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1731,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.363338+00:00,DESKTOP-7CV8A7M$,,,,1732,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.365541+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""MPSSVC Rule-Level Policy Change""",1733,3,Wazuh agent executing auditpol MPSSVC rule policy query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.367659+00:00,DESKTOP-7CV8A7M$,,,,1734,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.371914+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1735,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.397942+00:00,DESKTOP-7CV8A7M$,,,,1736,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.399952+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Other Policy Change Events""",1737,3,Wazuh agent executing auditpol policy change events query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.403238+00:00,DESKTOP-7CV8A7M$,,,,1738,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.408188+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1739,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.434975+00:00,DESKTOP-7CV8A7M$,,,,1740,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.437595+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Sensitive Privilege Use""",1741,3,Wazuh agent executing auditpol privilege use query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.439672+00:00,DESKTOP-7CV8A7M$,,,,1742,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.443909+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1743,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.471104+00:00,DESKTOP-7CV8A7M$,,,,1744,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.473248+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""IPsec Driver""",1745,3,Wazuh agent executing auditpol IPsec driver query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.475298+00:00,DESKTOP-7CV8A7M$,,,,1746,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.480030+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1747,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.522282+00:00,DESKTOP-7CV8A7M$,,,,1748,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.524654+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Other System Events""",1749,3,Wazuh agent executing auditpol system events query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.527126+00:00,DESKTOP-7CV8A7M$,,,,1750,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.531923+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1751,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.560068+00:00,DESKTOP-7CV8A7M$,,,,1752,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.562508+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Security State Change""",1753,3,Wazuh agent executing auditpol security state change query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.562840+00:00,DESKTOP-7CV8A7M$,,,,1754,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.571751+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1755,4,conhost spawned with ForceV1 flag from auditpol
+C:\Windows\SysWOW64\auditpol.exe,4689,2026-04-18 17:41:50.599352+00:00,DESKTOP-7CV8A7M$,,,,1756,2,"auditpol.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.601843+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"auditpol.exe /get /subcategory:""Security System Extension""",1757,3,Wazuh agent executing auditpol security extension query
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:41:50.605259+00:00,DESKTOP-7CV8A7M$,,,,1758,1,"conhost.exe process exit, normal system activity"
+,4688,2026-04-18 17:41:50.611479+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\auditpol.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,1759,4,conhost spawned with ForceV1 flag from auditpol

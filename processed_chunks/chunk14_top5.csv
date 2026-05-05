@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+912,4,User enumeration attempt on non-standard account
+915,6,Wazuh agent executing net user command
+921,6,Wazuh agent executing net user command
+928,7,Wazuh agent querying legal notice registry
+931,7,Wazuh agent querying legal notice registry

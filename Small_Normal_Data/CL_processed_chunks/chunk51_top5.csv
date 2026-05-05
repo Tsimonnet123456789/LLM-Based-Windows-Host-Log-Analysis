@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3568,7,Non-admin user added to Administrators group
+3528,6,Wazuh agent executing auditpol authentication policy query
+3532,6,Wazuh agent executing auditpol authorization policy query
+3536,6,Wazuh agent executing auditpol firewall rule policy query
+3540,6,Wazuh agent executing auditpol other policy change query

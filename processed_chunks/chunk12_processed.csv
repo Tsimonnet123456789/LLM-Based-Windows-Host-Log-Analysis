@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:37.640808+00:00,DESKTOP-7CV8A7M$,,,,770,1,Normal conhost process termination
+,4688,2026-04-18 17:03:37.646799+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,771,2,PowerShell spawning conhost with ForceV1 flag
+,4688,2026-04-18 17:03:38.430134+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",772,7,PowerShell executing SecEdit export security policy
+C:\Windows\UUS\Packages\Preview\amd64\MoUsoCoreWorker.exe,4689,2026-04-18 17:03:38.513435+00:00,DESKTOP-7CV8A7M$,,,,773,1,Normal MoUsoCoreWorker process termination
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:38.525122+00:00,DESKTOP-7CV8A7M$,,,,774,1,Normal SecEdit process termination
+,4688,2026-04-18 17:03:38.579134+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\Windows\System32\RuntimeBroker.exe -Embedding,775,2,RuntimeBroker spawned from svchost with embedding
+,4688,2026-04-18 17:03:38.608191+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\Windows\System32\RuntimeBroker.exe -Embedding,776,2,RuntimeBroker spawned from svchost with embedding
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:39.252468+00:00,DESKTOP-7CV8A7M$,,,,777,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:39.260700+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MaximumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",778,10,Wazuh agent executing secedit password policy extraction
+,4688,2026-04-18 17:03:39.268551+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,779,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:39.278971+00:00,DESKTOP-7CV8A7M$,,,,780,1,Normal conhost process termination
+,4688,2026-04-18 17:03:40.099419+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",781,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:40.174116+00:00,DESKTOP-7CV8A7M$,,,,782,1,Normal SecEdit process termination
+,4688,2026-04-18 17:03:40.292736+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca",783,3,backgroundTaskHost spawned from svchost unusual
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:40.959196+00:00,DESKTOP-7CV8A7M$,,,,784,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:40.967344+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",785,10,Wazuh agent executing secedit password policy extraction
+,4688,2026-04-18 17:03:40.980871+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,786,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:40.992319+00:00,DESKTOP-7CV8A7M$,,,,787,1,Normal conhost process termination
+,4688,2026-04-18 17:03:41.784887+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",788,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:41.863119+00:00,DESKTOP-7CV8A7M$,,,,789,1,Normal SecEdit process termination
+C:\Windows\System32\SppExtComObj.Exe,4689,2026-04-18 17:03:42.380642+00:00,DESKTOP-7CV8A7M$,,,,790,1,Normal SppExtComObj process termination
+C:\Windows\System32\sppsvc.exe,4689,2026-04-18 17:03:42.385330+00:00,DESKTOP-7CV8A7M$,,,,791,1,Normal sppsvc process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:42.579508+00:00,DESKTOP-7CV8A7M$,,,,792,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:42.587423+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordLength""; Remove-Item $env:TEMP\secpol.cfg",793,10,Wazuh agent executing secedit password policy extraction
+,4688,2026-04-18 17:03:42.600430+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,794,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:42.610899+00:00,DESKTOP-7CV8A7M$,,,,795,1,Normal conhost process termination
+,4688,2026-04-18 17:03:43.422621+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",796,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:43.502079+00:00,DESKTOP-7CV8A7M$,,,,797,1,Normal SecEdit process termination
+C:\Windows\System32\backgroundTaskHost.exe,4689,2026-04-18 17:03:43.556593+00:00,pizza,,,,798,2,backgroundTaskHost terminated by pizza user
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:44.225143+00:00,DESKTOP-7CV8A7M$,,,,799,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:44.234921+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutDuration""; Remove-Item $env:TEMP\secpol.cfg",800,10,Wazuh agent executing secedit lockout policy extraction
+,4688,2026-04-18 17:03:44.248264+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,801,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:44.258192+00:00,DESKTOP-7CV8A7M$,,,,802,1,Normal conhost process termination
+,4688,2026-04-18 17:03:45.185455+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",803,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:45.276741+00:00,DESKTOP-7CV8A7M$,,,,804,1,Normal SecEdit process termination
+,4688,2026-04-18 17:03:45.810574+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"""active-response/bin/restart-wazuh.exe""",805,9,Wazuh agent executing restart-wazuh active response
+,4688,2026-04-18 17:03:45.836641+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\active-response\bin\restart-wazuh.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,806,3,restart-wazuh spawning conhost with ForceV1
+,4688,2026-04-18 17:03:46.330011+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\active-response\bin\restart-wazuh.exe,C:\WINDOWS\system32\cmd.exe /c %WINDIR%\system32\net.exe stop Wazuh,807,8,restart-wazuh stopping Wazuh service via cmd
+,4688,2026-04-18 17:03:46.368862+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\cmd.exe,C:\WINDOWS\system32\net.exe  stop Wazuh,808,8,cmd executing net stop Wazuh service
+,4688,2026-04-18 17:03:46.393875+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\net.exe,C:\WINDOWS\system32\net1  stop Wazuh,809,8,net1 stopping Wazuh service
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:47.113396+00:00,DESKTOP-7CV8A7M$,,,,810,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:47.121096+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutBadCount""; Remove-Item $env:TEMP\secpol.cfg",811,10,Wazuh agent executing secedit lockout policy extraction
+,4688,2026-04-18 17:03:47.136063+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,812,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:47.146217+00:00,DESKTOP-7CV8A7M$,,,,813,1,Normal conhost process termination
+,4688,2026-04-18 17:03:48.025631+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",814,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:48.101971+00:00,DESKTOP-7CV8A7M$,,,,815,1,Normal SecEdit process termination
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,4689,2026-04-18 17:03:48.866102+00:00,DESKTOP-7CV8A7M$,,,,816,1,Normal PowerShell process termination
+,4688,2026-04-18 17:03:48.873795+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutBadCount""; Remove-Item $env:TEMP\secpol.cfg",817,10,Wazuh agent executing secedit lockout policy extraction
+,4688,2026-04-18 17:03:48.881599+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,818,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:48.892693+00:00,DESKTOP-7CV8A7M$,,,,819,1,Normal conhost process termination
+C:\Windows\SysWOW64\net1.exe,4689,2026-04-18 17:03:49.278294+00:00,DESKTOP-7CV8A7M$,,,,820,1,Normal net1 process termination
+C:\Windows\SysWOW64\net.exe,4689,2026-04-18 17:03:49.279732+00:00,DESKTOP-7CV8A7M$,,,,821,1,Normal net process termination
+C:\Windows\SysWOW64\cmd.exe,4689,2026-04-18 17:03:49.283262+00:00,DESKTOP-7CV8A7M$,,,,822,1,Normal cmd process termination
+,4688,2026-04-18 17:03:49.284714+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\active-response\bin\restart-wazuh.exe,C:\WINDOWS\system32\cmd.exe /c %WINDIR%\system32\net.exe start Wazuh,823,8,restart-wazuh starting Wazuh service via cmd
+,4688,2026-04-18 17:03:49.297178+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\cmd.exe,C:\WINDOWS\system32\net.exe  start Wazuh,824,8,cmd executing net start Wazuh service
+,4688,2026-04-18 17:03:49.321562+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\net.exe,C:\WINDOWS\system32\net1  start Wazuh,825,8,net1 starting Wazuh service
+,4688,2026-04-18 17:03:49.338234+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,"""C:\Program Files (x86)\ossec-agent\wazuh-agent.exe""",826,2,services.exe spawning wazuh-agent process
+,4688,2026-04-18 17:03:50.004118+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""PasswordHistorySize""; Remove-Item $env:TEMP\secpol.cfg",827,10,Wazuh agent executing secedit password history extraction
+,4798,2026-04-18 17:03:50.954844+00:00,DESKTOP-7CV8A7M$,Administrator,,,828,6,User account Administrator policy change event
+,4798,2026-04-18 17:03:50.955578+00:00,DESKTOP-7CV8A7M$,DefaultAccount,,,829,6,User account DefaultAccount policy change event
+,4798,2026-04-18 17:03:50.956181+00:00,DESKTOP-7CV8A7M$,Guest,,,830,6,User account Guest policy change event
+,4798,2026-04-18 17:03:50.956877+00:00,DESKTOP-7CV8A7M$,pizza,,,831,6,User account pizza policy change event
+,4798,2026-04-18 17:03:50.957644+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,832,6,User account WDAGUtilityAccount policy change event
+,4798,2026-04-18 17:03:50.958132+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,833,6,User account WDAGUtilityAccount policy change event
+,4798,2026-04-18 17:03:50.960014+00:00,DESKTOP-7CV8A7M$,Administrator,,,834,6,User account Administrator policy change event
+,4798,2026-04-18 17:03:50.960287+00:00,DESKTOP-7CV8A7M$,DefaultAccount,,,835,6,User account DefaultAccount policy change event
+,4798,2026-04-18 17:03:50.960550+00:00,DESKTOP-7CV8A7M$,Guest,,,836,6,User account Guest policy change event
+,4798,2026-04-18 17:03:50.960789+00:00,DESKTOP-7CV8A7M$,pizza,,,837,6,User account pizza policy change event
+,4798,2026-04-18 17:03:50.961039+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,838,6,User account WDAGUtilityAccount policy change event
+C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,4689,2026-04-18 17:03:51.235481+00:00,DESKTOP-7CV8A7M$,,,,839,1,Normal wazuh-agent process termination
+,4688,2026-04-18 17:03:51.292143+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,840,2,PowerShell spawning conhost with ForceV1 flag
+C:\Windows\SysWOW64\net1.exe,4689,2026-04-18 17:03:51.418959+00:00,DESKTOP-7CV8A7M$,,,,841,1,Normal net1 process termination
+C:\Windows\SysWOW64\net.exe,4689,2026-04-18 17:03:51.420504+00:00,DESKTOP-7CV8A7M$,,,,842,1,Normal net process termination
+C:\Windows\SysWOW64\cmd.exe,4689,2026-04-18 17:03:51.422899+00:00,DESKTOP-7CV8A7M$,,,,843,1,Normal cmd process termination
+C:\Program Files (x86)\ossec-agent\active-response\bin\restart-wazuh.exe,4689,2026-04-18 17:03:51.425922+00:00,DESKTOP-7CV8A7M$,,,,844,1,Normal restart-wazuh process termination
+C:\Windows\System32\conhost.exe,4689,2026-04-18 17:03:51.428362+00:00,DESKTOP-7CV8A7M$,,,,845,1,Normal conhost process termination
+,4688,2026-04-18 17:03:51.880442+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",846,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:51.976519+00:00,DESKTOP-7CV8A7M$,,,,847,1,Normal SecEdit process termination
+,4688,2026-04-18 17:03:52.581934+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",848,7,PowerShell executing SecEdit export security policy
+C:\Windows\SysWOW64\SecEdit.exe,4689,2026-04-18 17:03:52.735281+00:00,DESKTOP-7CV8A7M$,,,,849,1,Normal SecEdit process termination

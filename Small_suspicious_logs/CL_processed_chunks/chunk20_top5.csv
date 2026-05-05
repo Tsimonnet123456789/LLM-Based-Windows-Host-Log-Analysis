@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1371,15,Adding global group to administrators via net
+1372,15,Net1 adding global to administrators group
+1377,15,Adding system2 user to administrators group
+1378,15,Net1 adding system2 to administrators
+1367,14,Scheduled task creation for persistence via cmd

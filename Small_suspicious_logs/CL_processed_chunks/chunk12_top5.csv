@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+818,3,Unusual QuitInfo parameters in command line
+787,2,SLUI activation with RuleId parameters
+831,2,Edge crashpad handler with detailed annotations
+848,2,Edge entity extraction service utility
+849,2,Edge asset store service utility

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+318,12,Wazuh agent executing PowerShell security policy export
+357,10,PowerShell executing SecEdit security policy export
+284,5,"ClipRenew.exe spawned from svchost, unusual"
+342,4,SLUI activation with complex command parameters
+316,4,AggregatorHost.exe spawned from svchost

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+250,4,SLUI.exe with complex activation parameters
+253,3,MicrosoftEdgeUpdate.exe with installation parameters
+260,3,MicrosoftEdgeUpdate.exe spawned as service
+251,3,slui.exe spawned from svchost with embedding
+284,3,rundll32.exe with AppXDeploymentExtensions parameter

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2386,12,Explicit credential use with suspicious email account
+2387,12,Login with suspicious email account pizzahuthacker
+2388,12,Session logon with suspicious email account
+2389,12,Login with suspicious email account pizzahuthacker
+2339,7,PowerShell spawned from explorer by pizza user

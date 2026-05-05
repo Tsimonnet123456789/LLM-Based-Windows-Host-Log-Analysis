@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+421,9,Wazuh agent executing PowerShell user enumeration query
+430,8,Wazuh agent executing net user enumeration command
+436,8,Wazuh agent executing net user enumeration command
+450,8,Wazuh agent querying audit policy credential validation
+454,8,Wazuh agent querying audit policy application group management

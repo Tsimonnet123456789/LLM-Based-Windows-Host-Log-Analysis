@@ -1,0 +1,77 @@
+RowID,Suspicion_Score,summary,TargetUserName,Timestamp,SubjectUserName,EventID,ParentProcessName,CommandLine,ProcessName
+0,0,,pizza,2026-04-20 18:00:18.158943+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,taskhostw.exe $(Arg0),
+2,10,Security log cleared,-,2026-04-20 18:00:19.056101+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\wevtutil.exe"" cl Security",
+3,9,Audit log cleared,,2026-04-20 18:00:19.082523+00:00,,1102,,,
+6,10,System log cleared,-,2026-04-20 18:00:24.149845+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\wevtutil.exe"" cl system",
+13,10,Application log cleared,-,2026-04-20 18:00:31.446438+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\wevtutil.exe"" cl application",
+15,5,Unusual Edge process parameters,-,2026-04-20 18:00:34.338362+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=edge_search_indexer.mojom.SearchIndexerInterfaceBroker --lang=en-US --service-sandbox-type=search_indexer --message-loop-type-ui --skip-read-main-dll --metrics-shmem-handle=6824,i,14182499647159006810,3446584055099941156,524288 --field-trial-handle=2316,i,11653587304601885560,1287113618954745513,262144 --variations-seed-version --pseudonymization-salt-handle=2368,i,15542423599154470718,16582211970420337290,4 --trace-process-track-uuid=3190709009737917719 --mojo-platform-channel-handle=9692 /prefetch:14",
+142,3,Missing process details,,2026-04-20 18:02:39.108780+00:00,pizza,4695,,,
+143,3,Missing process details,,2026-04-20 18:02:39.108986+00:00,pizza,4695,,,
+149,3,Missing process details,,2026-04-20 18:02:39.513783+00:00,DESKTOP-A3EGFSV$,4695,,,
+150,3,Missing process details,,2026-04-20 18:02:39.514374+00:00,pizza,4695,,,
+153,3,Missing process details,,2026-04-20 18:02:39.588676+00:00,SYSTEM,4672,,,
+234,12,Unusual process launch,-,2026-04-20 18:08:01.150652+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\Upfc.exe /launchtype boot /cv PF0rFyn/oUe5zqw37hhFWw.0,
+236,0,,,2026-04-20 18:08:01.270605+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\System32\upfc.exe
+245,10,Suspicious taskhostw execution,-,2026-04-20 18:08:01.373110+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,taskhostw.exe ExploitGuardPolicy,
+252,8,Unusual executable path,-,2026-04-20 18:08:01.564203+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\dxgiadaptercache.exe""",
+284,9,Suspicious executable with flags,-,2026-04-20 18:08:03.454412+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\ClipRenew.exe"" -e",
+318,12,Suspicious PowerShell command,-,2026-04-20 18:08:05.817617+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""PasswordHistorySize""; Remove-Item $env:TEMP\secpol.cfg",
+361,10,Suspicious PowerShell script,-,2026-04-20 18:08:12.187626+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MaximumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",
+377,10,Suspicious PowerShell script,-,2026-04-20 18:08:14.314281+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MaximumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",
+385,10,Suspicious PowerShell script,-,2026-04-20 18:08:15.502787+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordAge""; Remove-Item $env:TEMP\secpol.cfg",
+391,10,Suspicious PowerShell script,-,2026-04-20 18:08:16.652168+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""MinimumPasswordLength""; Remove-Item $env:TEMP\secpol.cfg",
+397,10,Suspicious PowerShell script,-,2026-04-20 18:08:17.790112+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell secedit /export /cfg $env:TEMP\secpol.cfg; Get-Content $env:TEMP\secpol.cfg | Select-String ""LockoutDuration""; Remove-Item $env:TEMP\secpol.cfg",
+421,9,Powershell querying user accounts,-,2026-04-20 18:08:22.190367+00:00,DESKTOP-A3EGFSV$,4688,C:\Program Files (x86)\ossec-agent\wazuh-agent.exe,"powershell -NoProfile -Command ""[bool](Get-CimInstance -Query 'SELECT * FROM Win32_UserAccount WHERE LocalAccount = TRUE AND SID LIKE ''S-1-5-21-%-501''' | Where-Object -Property Disabled)""",
+431,8,Powershell with conhost forced,-,2026-04-20 18:08:23.779457+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+437,8,Powershell with conhost forced,-,2026-04-20 18:08:23.846731+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\net.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+443,8,Powershell with conhost forced,-,2026-04-20 18:08:23.897758+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\reg.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+447,8,Powershell with conhost forced,-,2026-04-20 18:08:23.930019+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\SysWOW64\reg.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+718,12,Suspicious user login attempt,pizzahuthacker@gmail.com,2026-04-20 18:16:05.137135+00:00,DESKTOP-A3EGFSV$,4648,,,C:\Windows\System32\svchost.exe
+719,12,Suspicious user login success,pizzahuthacker@gmail.com,2026-04-20 18:16:05.137163+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\svchost.exe
+720,12,Suspicious user login success,pizzahuthacker@gmail.com,2026-04-20 18:16:05.137177+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\svchost.exe
+721,12,Suspicious special privileges assigned,,2026-04-20 18:16:05.137182+00:00,pizzahuthacker@gmail.com,4672,,,
+723,12,Suspicious user login attempt,pizzahuthacker@gmail.com,2026-04-20 18:16:05.170149+00:00,DESKTOP-A3EGFSV$,4648,,,C:\Windows\System32\lsass.exe
+929,5,Suspicious admin group activity.,Administrators,2026-04-20 18:17:06.640194+00:00,pizza,4799,,,
+948,5,Suspicious admin group activity.,Administrators,2026-04-20 18:17:13.125429+00:00,pizza,4799,,,
+966,5,Suspicious admin group activity.,Administrators,2026-04-20 18:17:17.246038+00:00,pizza,4799,,,
+980,12,Execution of net1.exe,,2026-04-20 18:17:27.008036+00:00,pizza,4689,,,C:\Windows\System32\net1.exe
+981,12,Execution of net.exe,,2026-04-20 18:17:27.009851+00:00,pizza,4689,,,C:\Windows\System32\net.exe
+984,5,Suspicious group membership change.,,2026-04-20 18:17:36.573536+00:00,pizza,4728,,,
+985,5,Suspicious user account creation.,system44,2026-04-20 18:17:36.573948+00:00,pizza,4720,,,
+990,12,Execution of net1.exe,,2026-04-20 18:17:36.606367+00:00,pizza,4689,,,C:\Windows\System32\net1.exe
+991,12,Execution of net.exe,,2026-04-20 18:17:36.607645+00:00,pizza,4689,,,C:\Windows\System32\net.exe
+1006,12,Execution of net1.exe,,2026-04-20 18:17:50.324362+00:00,pizza,4689,,,C:\Windows\System32\net1.exe
+1053,9,Command execution as another user,-,2026-04-20 18:18:32.427881+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\runas.exe"" /user:system44 cmd",
+1071,10,User account creation attempt,-,2026-04-20 18:18:56.294422+00:00,system44,4688,C:\Windows\System32\cmd.exe,net  user global a /add,
+1072,10,User account creation attempt,-,2026-04-20 18:18:56.306700+00:00,system44,4688,C:\Windows\System32\net.exe,C:\WINDOWS\system32\net1  user global a /add,
+1078,10,User account creation attempt,-,2026-04-20 18:19:11.290247+00:00,system44,4688,C:\Windows\System32\cmd.exe,net  user globala a /add,
+1079,10,User account creation attempt,-,2026-04-20 18:19:11.301954+00:00,system44,4688,C:\Windows\System32\net.exe,C:\WINDOWS\system32\net1  user globala a /add,
+1122,6,Forced conhost execution,-,2026-04-20 18:19:39.927759+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1126,6,Forced conhost execution,-,2026-04-20 18:19:40.006414+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1130,6,Forced conhost execution,-,2026-04-20 18:19:40.048809+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1134,6,Forced conhost execution,-,2026-04-20 18:19:40.110983+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1138,6,Forced conhost execution,-,2026-04-20 18:19:40.185102+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1226,12,Suspicious executable in SystemTemp,,2026-04-20 18:19:51.151482+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SystemTemp\077AD621-EB68-41C1-A06D-B57D2B5E1088\MpSigStub.exe
+1227,12,Suspicious executable in SoftwareDistribution,,2026-04-20 18:19:51.207081+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\SoftwareDistribution\Download\Install\UpdatePlatform.amd64fre.exe
+1228,12,Suspicious executable in UUS Packages,,2026-04-20 18:19:51.245665+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\UUS\Packages\Preview\amd64\wuaucltcore.exe
+1234,12,Suspicious executable in UUS Packages,,2026-04-20 18:19:59.940138+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Windows\UUS\Packages\Preview\amd64\MoUsoCoreWorker.exe
+1269,9,Administrator privilege escalation attempt,-,2026-04-20 18:20:57.577251+00:00,system44,4688,C:\Windows\System32\cmd.exe,runas  /user:Administrator cmd.exe ,
+1271,5,Failed admin login,Administrator,2026-04-20 18:20:59.447306+00:00,system44,4625,,,C:\Windows\System32\svchost.exe
+1291,8,Attempted admin access,-,2026-04-20 18:21:14.981125+00:00,system44,4688,C:\Windows\System32\cmd.exe,runas  system44 /user:Administrator cmd.exe ,
+1311,5,Admin group accessed,Administrators,2026-04-20 18:21:19.058132+00:00,pizza,4799,,,
+1312,8,Attempted admin access,-,2026-04-20 18:21:25.516350+00:00,system44,4688,C:\Windows\System32\cmd.exe,runas  system44 /user:Administrator cmd,
+1347,12,Suspicious runas with admin privileges,-,2026-04-20 18:23:22.934237+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\runas.exe"" system44 /user:Administrator ""powershell Start-Process cmd.exe -Verb runAs""",
+1361,12,Suspicious conhost forced execution,-,2026-04-20 18:23:32.878185+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,
+1363,12,Suspicious runas with admin privileges,-,2026-04-20 18:23:35.254055+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\runas.exe"" system44 /user:Administrator ""powershell Start-Process cmd.exe -Verb runAs""",
+1367,12,Suspicious scheduled task creation,-,2026-04-20 18:23:52.228096+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\schtasks.exe"" /create /tn Updater /tr cmd.exe /sc onlogon /ru SYSTEM",
+1369,12,Suspicious scheduled task deletion,-,2026-04-20 18:23:52.313549+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\schtasks.exe"" /delete /tn Updater /f",
+1403,9,User addition command,-,2026-04-20 18:24:46.314878+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\net.exe"" user system2 a /add",
+1404,9,User addition command,-,2026-04-20 18:24:46.325653+00:00,pizza,4688,C:\Windows\System32\net.exe,C:\WINDOWS\system32\net1 user system2 a /add,
+1414,9,Admin group modification,-,2026-04-20 18:24:54.041067+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\net.exe"" localgroup administrators global /add",
+1415,9,Admin group modification,-,2026-04-20 18:24:54.048382+00:00,pizza,4688,C:\Windows\System32\net.exe,C:\WINDOWS\system32\net1 localgroup administrators global /add,
+1419,9,Admin group modification,-,2026-04-20 18:24:54.095055+00:00,pizza,4688,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\net.exe"" localgroup administrators system2 /add",
+1540,3,Unusual command line parameters,-,2026-04-20 18:26:19.811625+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,taskhostw.exe -RegisterDevice -ProtectionStateChanged -FreeNetworkOnly,
+1541,3,Unusual command line parameters,pizza,2026-04-20 18:26:20.920019+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,\\?\C:\Windows\System32\SecurityHealthHost.exe {08728914-3F57-4D52-9E31-49DAECA5A80A} -Embedding,
+1544,5,Complex command line arguments,-,2026-04-20 18:26:21.675148+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=chrome.mojom.UtilWin --lang=en-US --service-sandbox-type=none --message-loop-type-ui --video-capture-use-gpu-memory-buffer --skip-read-main-dll --metrics-shmem-handle=7508,i,6999191344363125113,9486227356941251727,524288 --field-trial-handle=2580,i,16363140994783023232,2662048548580896011,262144 --variations-seed-version --pseudonymization-salt-handle=2584,i,16317294031186864908,840205868831341560,4 --trace-process-track-uuid=3190708997556373682 --mojo-platform-channel-handle=7532 /prefetch:14",
+1547,3,Unusual command line parameters,DESKTOP-A3EGFSV$,2026-04-20 18:26:22.159197+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\wbem\wmiprvse.exe -secured -Embedding,
+1548,4,Administrator account involved,Administrator,2026-04-20 18:26:22.424252+00:00,DESKTOP-A3EGFSV$,4798,,,

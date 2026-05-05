@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+919,7,whoami.exe executed from PowerShell
+917,6,conhost launched from PowerShell with ForceV1
+916,6,PowerShell launched from explorer.exe
+912,5,Suspicious command line with QuitInfo parameters
+908,5,Copilot proxy launched from svchost with embedding

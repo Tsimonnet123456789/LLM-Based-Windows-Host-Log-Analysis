@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+,4688,2026-04-18 18:09:29.101974+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MsMpEng.exe,"C:\WINDOWS\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\Microsoft-Antimalware-Protection.man""",3150,7,Windows Defender uninstalling event log manifest
+,4688,2026-04-18 18:09:29.104368+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,3151,2,Console host spawned from wevtutil normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:09:29.104944+00:00,DESKTOP-7CV8A7M$,,,,3152,1,Console host process termination normal
+C:\Windows\System32\wevtutil.exe,4689,2026-04-18 18:09:29.218807+00:00,DESKTOP-7CV8A7M$,,,,3153,1,Wevtutil process termination normal
+,4688,2026-04-18 18:09:29.226585+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MsMpEng.exe,"C:\WINDOWS\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\Microsoft-Antimalware-Protection.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpClient.dll"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpClient.dll"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpClient.dll""",3154,7,Windows Defender installing event log manifest
+,4688,2026-04-18 18:09:29.229092+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\wevtutil.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,3155,2,Console host spawned from wevtutil normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:09:29.229584+00:00,DESKTOP-7CV8A7M$,,,,3156,1,Console host process termination normal
+C:\Windows\System32\wevtutil.exe,4689,2026-04-18 18:09:29.308382+00:00,DESKTOP-7CV8A7M$,,,,3157,1,Wevtutil process termination normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:09:29.316942+00:00,DESKTOP-7CV8A7M$,,,,3158,1,Console host process termination normal
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:29.375191+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3159,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:29.375200+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3160,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:29.375210+00:00,SYSTEM,,,,3161,1,SYSTEM privilege use normal
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:29.375370+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3162,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:29.375383+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3163,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:29.375399+00:00,SYSTEM,,,,3164,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:29.377985+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k wsappx -p -s AppXSvc,3165,1,Svchost AppXSvc spawned normally
+,4688,2026-04-18 18:09:29.378765+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k osprivacy -p -s camsvc,3166,1,Svchost camera service spawned normally
+,4799,2026-04-18 18:09:29.531021+00:00,DESKTOP-7CV8A7M$,Administrators,,,3167,2,Group membership change to Administrators
+,4688,2026-04-18 18:09:29.579920+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k WSAIFabricSvcGroup -p -s WSAIFabricSvc,3168,1,Svchost fabric service spawned normally
+,4688,2026-04-18 18:09:30.455847+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,AggregatorHost.exe,3169,3,AggregatorHost spawned from svchost
+,4688,2026-04-18 18:09:31.385960+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\wbem\wmiprvse.exe -secured -Embedding,3170,1,WMI provider service spawned normally
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:31.512711+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3171,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:31.512718+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3172,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:31.512726+00:00,SYSTEM,,,,3173,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:31.515741+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\servicing\TrustedInstaller.exe,3174,1,TrustedInstaller spawned normally
+,4688,2026-04-18 18:09:31.582766+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\wermgr.exe"" -upload",3175,2,Windows error manager upload spawned
+,4688,2026-04-18 18:09:31.606989+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.8247_none_a53a4f5b773e04f9\TiWorker.exe -Embedding,3176,1,TiWorker servicing process spawned normally
+,5024,2026-04-18 18:09:31.612217+00:00,,,,,3177,1,Windows Firewall service started normal
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:32.876499+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3178,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:32.876511+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3179,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:32.876518+00:00,SYSTEM,,,,3180,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:32.877615+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost,3181,1,Svchost WDI system host spawned
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:32.932810+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3182,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:32.932819+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3183,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:32.932827+00:00,SYSTEM,,,,3184,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:32.934208+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s PcaSvc,3185,1,Svchost PCA service spawned normally
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:33.270166+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3186,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:33.270178+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3187,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:33.270187+00:00,SYSTEM,,,,3188,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:33.271296+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv,3189,1,Svchost Windows Update service spawned
+,4688,2026-04-18 18:09:33.812092+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,3190,3,Console host spawned from PowerShell
+,4798,2026-04-18 18:09:34.457821+00:00,DESKTOP-7CV8A7M$,Administrator,,,3191,2,Administrator account password changed
+,4798,2026-04-18 18:09:34.459509+00:00,DESKTOP-7CV8A7M$,DefaultAccount,,,3192,1,DefaultAccount password changed normal
+,4798,2026-04-18 18:09:34.460886+00:00,DESKTOP-7CV8A7M$,Guest,,,3193,1,Guest account password changed normal
+,4798,2026-04-18 18:09:34.462255+00:00,DESKTOP-7CV8A7M$,pizza,,,3194,2,Pizza user account password changed
+,4798,2026-04-18 18:09:34.463907+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,3195,1,WDAGUtilityAccount password changed normal
+,4798,2026-04-18 18:09:34.464836+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,3196,1,WDAGUtilityAccount password changed normal
+,4798,2026-04-18 18:09:34.466942+00:00,DESKTOP-7CV8A7M$,Administrator,,,3197,2,Administrator account password changed
+,4798,2026-04-18 18:09:34.467384+00:00,DESKTOP-7CV8A7M$,DefaultAccount,,,3198,1,DefaultAccount password changed normal
+,4798,2026-04-18 18:09:34.467894+00:00,DESKTOP-7CV8A7M$,Guest,,,3199,1,Guest account password changed normal
+,4798,2026-04-18 18:09:34.468342+00:00,DESKTOP-7CV8A7M$,pizza,,,3200,2,Pizza user account password changed
+,4798,2026-04-18 18:09:34.468876+00:00,DESKTOP-7CV8A7M$,WDAGUtilityAccount,,,3201,1,WDAGUtilityAccount password changed normal
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 18:09:34.490374+00:00,LOCAL SERVICE,,,,3202,1,Taskhost process termination normal
+C:\Windows\System32\dxgiadaptercache.exe,4689,2026-04-18 18:09:37.354359+00:00,DESKTOP-7CV8A7M$,,,,3203,1,DXGIAdapterCache process termination normal
+C:\Windows\System32\ClipRenew.exe,4689,2026-04-18 18:09:37.798210+00:00,DESKTOP-7CV8A7M$,,,,3204,1,ClipRenew process termination normal
+,4688,2026-04-18 18:09:38.216705+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MsMpEng.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe"" -RegisterWmiSchema -Root ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0""",3205,2,Windows Defender registering WMI schema
+,4688,2026-04-18 18:09:38.223982+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,3206,2,Console host spawned from MpCmdRun
+,4688,2026-04-18 18:09:38.438408+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\NisSrv.exe""",3207,1,Windows Defender NisSrv service spawned
+,4688,2026-04-18 18:09:38.492666+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,"C:\WINDOWS\system32\wbem\mofcomp.exe ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\ProtectionManagement.mof""",3208,2,MOF compiler invoked by Windows Defender
+,4688,2026-04-18 18:09:38.497646+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\wbem\mofcomp.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,3209,2,Console host spawned from mofcomp
+,4688,2026-04-18 18:09:39.011015+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\services.exe,C:\WINDOWS\system32\sppsvc.exe,3210,1,Software Protection service spawned normally
+C:\Windows\System32\wbem\mofcomp.exe,4689,2026-04-18 18:09:39.115995+00:00,DESKTOP-7CV8A7M$,,,,3211,1,MOF compiler process termination normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:09:39.118389+00:00,DESKTOP-7CV8A7M$,,,,3212,1,Console host process termination normal
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,4689,2026-04-18 18:09:39.146116+00:00,DESKTOP-7CV8A7M$,,,,3213,1,MpCmdRun process termination normal
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:09:39.148104+00:00,DESKTOP-7CV8A7M$,,,,3214,1,Console host process termination normal
+,4688,2026-04-18 18:09:39.498016+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\SppExtComObj.exe -Embedding,3215,1,SppExtComObj spawned from svchost
+,4688,2026-04-18 18:09:39.535868+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\SppExtComObj.Exe,"""C:\WINDOWS\System32\SLUI.exe"" RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=NetworkAvailable",3216,3,SLUI activation triggered by SppExtComObj
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 18:09:39.607576+00:00,DESKTOP-7CV8A7M$,,,,3217,1,Taskhost process termination normal
+,4688,2026-04-18 18:09:39.837061+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalService -p -s LicenseManager,3218,1,Svchost license manager service spawned
+C:\Windows\System32\wermgr.exe,4689,2026-04-18 18:09:39.900967+00:00,DESKTOP-7CV8A7M$,,,,3219,1,Windows error manager process termination
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:39.951401+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3220,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:39.951410+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3221,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:39.951418+00:00,SYSTEM,,,,3222,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:39.953299+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k wsappx -p -s ClipSVC,3223,1,Svchost clipboard service spawned normally
+C:\Windows\System32\services.exe,4624,2026-04-18 18:09:40.112888+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3224,1,Services logon to SYSTEM normal
+,4627,2026-04-18 18:09:40.112898+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,3225,1,SYSTEM logon event normal
+,4672,2026-04-18 18:09:40.112906+00:00,SYSTEM,,,,3226,1,SYSTEM privilege use normal
+,4688,2026-04-18 18:09:40.114183+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s TokenBroker,3227,1,Svchost token broker service spawned
+C:\Windows\System32\slui.exe,4689,2026-04-18 18:09:40.486542+00:00,DESKTOP-7CV8A7M$,,,,3228,1,SLUI process termination normal
+,4688,2026-04-18 18:09:41.515131+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,"""C:\WINDOWS\system32\SecEdit.exe"" /export /cfg C:\WINDOWS\TEMP\secpol.cfg",3229,9,SecEdit security policy export from PowerShell

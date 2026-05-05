@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+3229,9,SecEdit security policy export from PowerShell
+3150,7,Windows Defender uninstalling event log manifest
+3154,7,Windows Defender installing event log manifest
+3216,3,SLUI activation triggered by SppExtComObj
+3190,3,Console host spawned from PowerShell

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1182,6,EdgeWebView utility process with complex parameters
+1190,5,Edge setup executable with installation parameters
+1189,5,Microsoft Edge installer spawned by update service
+1176,5,Windows Store extension spawned by sihost
+1155,5,Rundll32 executing AppXDeploymentExtensions from system

@@ -1,0 +1,81 @@
+TargetUserName,Timestamp,SubjectUserName,EventID,ParentProcessName,CommandLine,ProcessName,RowID,Suspicion_Score,summary
+,2026-04-20 18:02:39.101969+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,140,1,Normal Edge browser process termination
+,2026-04-20 18:02:39.102861+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,141,1,Normal Edge browser process termination
+,2026-04-20 18:02:39.108780+00:00,pizza,4695,,,,142,0,System audit event with minimal data
+,2026-04-20 18:02:39.108986+00:00,pizza,4695,,,,143,0,System audit event with minimal data
+-,2026-04-20 18:02:39.140278+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --gpu-preferences=SAAAAAAAAADgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --startup-read-main-dll --metrics-shmem-handle=1636,i,7873314519504195335,844810883513945121,262144 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708988185955192 --mojo-platform-channel-handle=2236 /prefetch:2",,144,2,Edge GPU process with complex memory parameters
+-,2026-04-20 18:02:39.213875+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --startup-read-main-dll --metrics-shmem-handle=1840,i,15119956159337158063,14370846379845429331,524288 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708989122997041 --mojo-platform-channel-handle=2308 /prefetch:11",,145,2,Edge network utility service subprocess
+-,2026-04-20 18:02:39.243652+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\147.0.3912.72\elevation_service.exe""",,146,3,Edge elevation service launched by system
+-,2026-04-20 18:02:39.251066+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --startup-read-main-dll --metrics-shmem-handle=2220,i,14049975660444297531,6097710217206350486,524288 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708990060038890 --mojo-platform-channel-handle=3584 /prefetch:13",,147,2,Edge storage service subprocess with parameters
+-,2026-04-20 18:02:39.252655+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=edge_collections.mojom.CollectionsDataManager --lang=en-US --service-sandbox-type=collections --ram-no-pressure-read-main-dll --metrics-shmem-handle=2768,i,16059749585467193130,4123614304295842575,524288 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708990997080739 --mojo-platform-channel-handle=3700 /prefetch:14",,148,2,Edge collections data manager subprocess
+,2026-04-20 18:02:39.513783+00:00,DESKTOP-A3EGFSV$,4695,,,,149,0,System audit event with minimal data
+,2026-04-20 18:02:39.514374+00:00,pizza,4695,,,,150,0,System audit event with minimal data
+,2026-04-20 18:02:39.587729+00:00,DESKTOP-A3EGFSV$,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\147.0.3912.72\elevation_service.exe,151,2,Edge elevation service process termination
+SYSTEM,2026-04-20 18:02:39.588671+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,152,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:02:39.588676+00:00,SYSTEM,4672,,,,153,1,SYSTEM privilege assignment event
+-,2026-04-20 18:02:39.589802+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s NgcSvc,,154,1,Normal svchost service launch for NgcSvc
+,2026-04-20 18:02:39.837523+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,155,1,Normal Edge browser process termination
+-,2026-04-20 18:02:39.886341+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\147.0.3912.72\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=windows_package_identity --video-capture-use-gpu-memory-buffer --skip-read-main-dll --metrics-shmem-handle=5688,i,1404859448001943162,4414181274957215665,524288 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708991934122588 --mojo-platform-channel-handle=5724 /prefetch:14",,156,2,Edge identity helper utility subprocess
+,2026-04-20 18:02:39.896086+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\147.0.3912.72\identity_helper.exe,157,1,Edge identity helper process termination
+-,2026-04-20 18:02:39.899153+00:00,pizza,4688,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\147.0.3912.72\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=windows_package_identity --video-capture-use-gpu-memory-buffer --skip-read-main-dll --metrics-shmem-handle=5688,i,1404859448001943162,4414181274957215665,524288 --field-trial-handle=2240,i,11143945296944085888,12671325936974232131,262144 --variations-seed-version --pseudonymization-salt-handle=2244,i,12724185471366048909,17944344586131369896,4 --trace-process-track-uuid=3190708991934122588 --mojo-platform-channel-handle=5724 /prefetch:14",,158,2,Edge identity helper utility subprocess
+,2026-04-20 18:02:40.111122+00:00,pizza,4689,,,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2512.26.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,159,1,Normal Notepad application termination
+,2026-04-20 18:02:40.678799+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,160,1,Normal Edge browser process termination
+,2026-04-20 18:02:40.679165+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,161,1,Normal Edge browser process termination
+,2026-04-20 18:02:40.681150+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,162,1,Normal Edge browser process termination
+,2026-04-20 18:02:40.683952+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,163,1,Normal Edge browser process termination
+,2026-04-20 18:02:40.727196+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,164,1,Normal Edge browser process termination
+,2026-04-20 18:02:40.748487+00:00,pizza,4689,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,165,1,Normal Edge browser process termination
+-,2026-04-20 18:07:58.958967+00:00,-,4688,,,,166,4,Process creation with missing critical data
+-,2026-04-20 18:07:58.959118+00:00,-,4696,,,,167,3,Audit event with missing subject information
+,2026-04-20 18:07:58.959122+00:00,-,4826,,,,168,3,Unusual event type with missing data
+-,2026-04-20 18:07:58.962400+00:00,-,4688,,,,169,4,Process creation with missing critical data
+-,2026-04-20 18:07:59.421204+00:00,-,4688,C:\Windows\System32\smss.exe,,,170,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.645664+00:00,-,4688,C:\Windows\System32\smss.exe,,,171,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.723251+00:00,-,4688,C:\Windows\System32\smss.exe,,,172,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.831991+00:00,-,4688,C:\Windows\System32\smss.exe,,,173,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.835608+00:00,-,4688,C:\Windows\System32\smss.exe,,,174,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.838045+00:00,-,4688,C:\Windows\System32\smss.exe,,,175,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.859486+00:00,-,4688,C:\Windows\System32\smss.exe,,,176,3,Process from smss.exe with missing details
+-,2026-04-20 18:07:59.956900+00:00,-,4688,C:\Windows\System32\wininit.exe,,,177,2,Process from wininit.exe with missing details
+-,2026-04-20 18:08:00.023918+00:00,-,4688,C:\Windows\System32\wininit.exe,,,178,2,Process from wininit.exe with missing details
+,2026-04-20 18:08:00.128414+00:00,,6417,,,C:\Windows\System32\lsass.exe,179,1,Normal lsass.exe system process event
+,2026-04-20 18:08:00.132179+00:00,,4608,,,,180,0,System audit initialization event
+SYSTEM,2026-04-20 18:08:00.141685+00:00,-,4624,,,,181,1,Normal SYSTEM login event
+,2026-04-20 18:08:00.330967+00:00,,4902,,,,182,0,System configuration event
+UMFD-0,2026-04-20 18:08:00.386835+00:00,DESKTOP-A3EGFSV$,4648,,,C:\Windows\System32\wininit.exe,183,1,Normal UMFD-0 credential delegation
+UMFD-0,2026-04-20 18:08:00.386862+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\wininit.exe,184,1,Normal UMFD-0 login event
+UMFD-1,2026-04-20 18:08:00.387880+00:00,DESKTOP-A3EGFSV$,4648,,,C:\Windows\System32\winlogon.exe,185,1,Normal UMFD-1 credential delegation
+UMFD-1,2026-04-20 18:08:00.387890+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\winlogon.exe,186,1,Normal UMFD-1 login event
+SYSTEM,2026-04-20 18:08:00.391825+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,187,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.391830+00:00,SYSTEM,4672,,,,188,1,SYSTEM privilege assignment event
+-,2026-04-20 18:08:00.396746+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p,,189,1,Normal svchost DcomLaunch service
+UMFD-0,2026-04-20 18:08:00.410547+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\wininit.exe,"""fontdrvhost.exe""",,190,1,Normal fontdrvhost process launch
+UMFD-1,2026-04-20 18:08:00.410551+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\winlogon.exe,"""fontdrvhost.exe""",,191,1,Normal fontdrvhost process launch
+NETWORK SERVICE,2026-04-20 18:08:00.555155+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,192,1,Normal NETWORK SERVICE login
+,2026-04-20 18:08:00.555159+00:00,NETWORK SERVICE,4672,,,,193,1,NETWORK SERVICE privilege assignment
+DESKTOP-A3EGFSV$,2026-04-20 18:08:00.642477+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k RPCSS -p,,194,1,Normal svchost RPCSS service
+SYSTEM,2026-04-20 18:08:00.681591+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,195,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.681597+00:00,SYSTEM,4672,,,,196,1,SYSTEM privilege assignment event
+-,2026-04-20 18:08:00.682541+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p -s LSM,,197,1,Normal svchost DcomLaunch LSM service
+-,2026-04-20 18:08:00.793047+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\winlogon.exe,"""LogonUI.exe"" /flags:0x2 /state0:0xa3bd5855 /state1:0x41c64e6d",,198,1,Normal LogonUI process launch
+DWM-1,2026-04-20 18:08:00.793489+00:00,DESKTOP-A3EGFSV$,4648,,,C:\Windows\System32\winlogon.exe,199,1,Normal DWM-1 credential delegation
+DWM-1,2026-04-20 18:08:00.793501+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\winlogon.exe,200,1,Normal DWM-1 login event
+DWM-1,2026-04-20 18:08:00.793510+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\winlogon.exe,201,1,Normal DWM-1 login event
+,2026-04-20 18:08:00.793512+00:00,DWM-1,4672,,,,202,1,DWM-1 privilege assignment event
+,2026-04-20 18:08:00.793512+00:00,DWM-1,4672,,,,203,1,DWM-1 privilege assignment event
+DWM-1,2026-04-20 18:08:00.796183+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\winlogon.exe,"""dwm.exe""",,204,1,Normal dwm.exe process launch
+SYSTEM,2026-04-20 18:08:00.904268+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,205,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.904272+00:00,SYSTEM,4672,,,,206,1,SYSTEM privilege assignment event
+SYSTEM,2026-04-20 18:08:00.904902+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,207,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.904909+00:00,SYSTEM,4672,,,,208,1,SYSTEM privilege assignment event
+-,2026-04-20 18:08:00.905455+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k GPSvcGroup,,209,1,Normal svchost GPSvcGroup service
+-,2026-04-20 18:08:00.906046+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s PrintDeviceConfigurationService,,210,1,Normal svchost PrintDeviceConfigurationService
+DESKTOP-A3EGFSV$,2026-04-20 18:08:00.907724+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k NetworkService -p,,211,1,Normal svchost NetworkService process
+LOCAL SERVICE,2026-04-20 18:08:00.937368+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,212,1,Normal LOCAL SERVICE login
+,2026-04-20 18:08:00.937374+00:00,LOCAL SERVICE,4672,,,,213,1,LOCAL SERVICE privilege assignment
+SYSTEM,2026-04-20 18:08:00.977324+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,214,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.977329+00:00,SYSTEM,4672,,,,215,1,SYSTEM privilege assignment event
+-,2026-04-20 18:08:00.978376+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService,,216,1,Normal svchost NcbService service
+SYSTEM,2026-04-20 18:08:00.987871+00:00,DESKTOP-A3EGFSV$,4624,,,C:\Windows\System32\services.exe,217,1,Normal SYSTEM login via services.exe
+,2026-04-20 18:08:00.987877+00:00,SYSTEM,4672,,,,218,1,SYSTEM privilege assignment event
+-,2026-04-20 18:08:00.988930+00:00,DESKTOP-A3EGFSV$,4688,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule,,219,1,Normal svchost Schedule service

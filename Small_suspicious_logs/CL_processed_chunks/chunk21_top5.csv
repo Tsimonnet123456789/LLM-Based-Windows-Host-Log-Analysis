@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1447,14,PowerShell creating scheduled task Updater
+1414,13,PowerShell adding user to administrators group
+1415,13,Net.exe adding global to administrators
+1419,13,PowerShell adding system2 to administrators
+1420,13,Net.exe adding system2 to administrators

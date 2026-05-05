@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1214,8,Edge setup installer with system-level installation flags
+1217,8,Copilot installer spawned from Edge setup
+1190,7,Edge installer with copilot upgrade flags detected
+1216,7,Edge setup installer process terminated
+1224,7,Copilot installer process terminated

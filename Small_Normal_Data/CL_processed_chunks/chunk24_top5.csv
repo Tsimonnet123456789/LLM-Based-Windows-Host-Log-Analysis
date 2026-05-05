@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1610,11,Wazuh agent executing security policy export commands
+1616,11,Wazuh agent executing security policy export commands
+1622,11,Wazuh agent querying lockout policy settings
+1628,10,Wazuh agent querying disabled user accounts
+1631,8,User account policy change on Administrator account

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1004,12,net.exe adding system44 to administrators
+1003,12,PowerShell adding system44 to administrators
+1039,11,PowerShell executing runas for system44
+1053,11,PowerShell executing runas for system44
+1005,11,system44 added to Administrators group

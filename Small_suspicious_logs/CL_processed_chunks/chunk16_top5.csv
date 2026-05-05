@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1072,13,Net1 user add command by system44
+1071,13,Net user add command by system44
+1079,13,Net1 user add globala command by system44
+1078,13,Net user add globala command by system44
+1053,12,PowerShell executing runas to system44 account

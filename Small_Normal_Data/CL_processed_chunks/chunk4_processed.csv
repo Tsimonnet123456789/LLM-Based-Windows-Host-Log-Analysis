@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+,4634,2026-04-18 17:00:11.329390+00:00,,pizza,,,210,2,User logoff event with minimal data
+,4799,2026-04-18 17:00:11.499603+00:00,DESKTOP-7CV8A7M$,Administrators,,,211,3,Group membership query for Administrators
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:11.623928+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,212,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:11.623940+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,213,1,Normal user privilege use event
+,4672,2026-04-18 17:00:11.623949+00:00,SYSTEM,,,,214,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:11.626144+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k CameraMonitor,215,2,Standard svchost CameraMonitor service start
+,4688,2026-04-18 17:00:11.731298+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,sihost.exe,216,2,sihost.exe spawned from svchost normally
+,4688,2026-04-18 17:00:11.767412+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s CDPUserSvc,217,2,Standard svchost UnistackSvcGroup service start
+,4688,2026-04-18 17:00:11.922628+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s webthreatdefusersvc,218,2,Standard svchost webthreatdefusersvc service start
+,4688,2026-04-18 17:00:12.011374+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup -s WpnUserService,219,2,Standard svchost WpnUserService service start
+,4688,2026-04-18 17:00:12.139133+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe,220,2,taskhostw.exe spawned from svchost normally
+,4688,2026-04-18 17:00:12.143480+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /c",221,3,MicrosoftEdgeUpdate.exe spawned from svchost
+,4688,2026-04-18 17:00:12.182564+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe {222A245B-E637-4AE9-A93F-A59CA119A75E},222,2,taskhostw.exe with GUID parameter normally
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:12.305796+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,223,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:12.305807+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,224,1,Normal user privilege use event
+,4672,2026-04-18 17:00:12.305815+00:00,SYSTEM,,,,225,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:12.310684+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s TokenBroker,226,2,Standard svchost TokenBroker service start
+,4688,2026-04-18 17:00:12.482397+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe,227,2,taskhostw.exe spawned from svchost normally
+,4688,2026-04-18 17:00:13.345257+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\services.exe,C:\WINDOWS\system32\sppsvc.exe,228,2,sppsvc.exe spawned from services normally
+,4688,2026-04-18 17:00:13.788744+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\winlogon.exe,C:\WINDOWS\system32\userinit.exe,229,2,userinit.exe spawned from winlogon normally
+,5058,2026-04-18 17:00:13.789263+00:00,pizza,,,,230,2,Cryptographic key material generated
+,5061,2026-04-18 17:00:13.790165+00:00,pizza,,,,231,2,Cryptographic operation completed normally
+,5059,2026-04-18 17:00:13.790768+00:00,pizza,,,,232,2,Cryptographic key material exported
+,4688,2026-04-18 17:00:13.815029+00:00,DESKTOP-7CV8A7M$,LOCAL SERVICE,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalService -p -s CDPSvc,233,2,Standard svchost CDPSvc service start
+,4688,2026-04-18 17:00:13.874262+00:00,pizza,-,C:\Windows\System32\userinit.exe,C:\WINDOWS\Explorer.EXE,234,1,Explorer.exe spawned from userinit normally
+,4688,2026-04-18 17:00:14.271229+00:00,pizza,-,C:\Windows\System32\sihost.exe,"""C:\Windows\System32\ShellHost.exe""",235,2,ShellHost.exe spawned from sihost normally
+,5058,2026-04-18 17:00:14.312683+00:00,LOCAL SERVICE,,,,236,2,Cryptographic key material generated
+,5061,2026-04-18 17:00:14.313286+00:00,LOCAL SERVICE,,,,237,2,Cryptographic operation completed normally
+,5059,2026-04-18 17:00:14.315557+00:00,LOCAL SERVICE,,,,238,2,Cryptographic key material exported
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 17:00:14.541832+00:00,pizza,,,,239,1,taskhostw.exe process terminated normally
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:14.804102+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,240,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:14.804113+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,241,1,Normal user privilege use event
+,4672,2026-04-18 17:00:14.804123+00:00,SYSTEM,,,,242,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:14.806664+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k AppReadiness -p -s AppReadiness,243,2,Standard svchost AppReadiness service start
+,4688,2026-04-18 17:00:15.140560+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,AggregatorHost.exe,244,2,AggregatorHost.exe spawned from svchost normally
+,4688,2026-04-18 17:00:15.271801+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\SppExtComObj.exe -Embedding,245,2,SppExtComObj.exe spawned from svchost normally
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:16.225208+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,246,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:16.225218+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,247,1,Normal user privilege use event
+,4672,2026-04-18 17:00:16.225227+00:00,SYSTEM,,,,248,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:16.227293+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Appinfo,249,2,Standard svchost Appinfo service start
+,4688,2026-04-18 17:00:16.243160+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\SppExtComObj.Exe,"""C:\WINDOWS\System32\SLUI.exe"" RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=2b1f36bb-c1cd-4306-bf5c-a0367c2d97d8;NotificationInterval=1440;Trigger=UserLogon;SessionId=1",250,4,SLUI.exe with complex activation parameters
+,4688,2026-04-18 17:00:16.444477+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\WINDOWS\System32\slui.exe -Embedding,251,3,slui.exe spawned from svchost with embedding
+,4688,2026-04-18 17:00:16.738007+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\sihost.exe,"""C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe"" /tileid MicrosoftWindows.Client.CBS_cw5n1h2txyewy!CrossDeviceResumeApp",252,2,CrossDeviceResume.exe spawned from sihost
+,4688,2026-04-18 17:00:16.806320+00:00,DESKTOP-7CV8A7M$,-,C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /ua /installsource core",253,3,MicrosoftEdgeUpdate.exe with installation parameters
+,4688,2026-04-18 17:00:16.923738+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\wermgr.exe"" -upload",254,2,wermgr.exe spawned from svchost for upload
+,5024,2026-04-18 17:00:17.055456+00:00,,,,,255,1,Windows Firewall service started normally
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:17.859735+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,256,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:17.859743+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,257,1,Normal user privilege use event
+,4672,2026-04-18 17:00:17.859770+00:00,SYSTEM,,,,258,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:17.860922+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wlidsvc,259,2,Standard svchost wlidsvc service start
+,4688,2026-04-18 17:00:17.923391+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",260,3,MicrosoftEdgeUpdate.exe spawned as service
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:18.523890+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,261,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:18.523899+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,262,1,Normal user privilege use event
+,4672,2026-04-18 17:00:18.523907+00:00,SYSTEM,,,,263,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:18.524942+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost,264,2,Standard svchost WdiSystemHost service start
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:18.585135+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,265,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:18.585144+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,266,1,Normal user privilege use event
+,4672,2026-04-18 17:00:18.585163+00:00,SYSTEM,,,,267,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:18.586390+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netsvcs -p,268,2,Standard svchost netsvcs service start
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:18.727648+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,269,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:18.727657+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,270,1,Normal user privilege use event
+,4672,2026-04-18 17:00:18.727665+00:00,SYSTEM,,,,271,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:18.728870+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s PcaSvc,272,2,Standard svchost PcaSvc service start
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:19.015619+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,273,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:19.015629+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,274,1,Normal user privilege use event
+,4672,2026-04-18 17:00:19.015640+00:00,SYSTEM,,,,275,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:19.016821+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s wuauserv,276,2,Standard svchost wuauserv service start
+,4799,2026-04-18 17:00:19.633795+00:00,DESKTOP-7CV8A7M$,Administrators,,,277,3,Group membership query for Administrators
+,6416,2026-04-18 17:00:19.720306+00:00,DESKTOP-7CV8A7M$,,,,278,1,Device plug and play event normally
+C:\Windows\System32\services.exe,4624,2026-04-18 17:00:20.633768+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,279,1,Normal services.exe SYSTEM logon
+,4627,2026-04-18 17:00:20.633778+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,280,1,Normal user privilege use event
+,4672,2026-04-18 17:00:20.633787+00:00,SYSTEM,,,,281,1,Normal special privileges assigned
+,4688,2026-04-18 17:00:20.635712+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k wsappx -p -s ClipSVC,282,2,Standard svchost ClipSVC service start
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 17:00:21.508005+00:00,pizza,,,,283,1,taskhostw.exe process terminated normally
+,4688,2026-04-18 17:00:21.554434+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,"C:\WINDOWS\system32\rundll32.exe C:\WINDOWS\system32\AppXDeploymentExtensions.OneCore.dll,ShellRefresh",284,3,rundll32.exe with AppXDeploymentExtensions parameter
+,4688,2026-04-18 17:00:22.064787+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k ClipboardSvcGroup -p -s cbdhsvc,285,2,Standard svchost cbdhsvc service start
+,4688,2026-04-18 17:00:22.865353+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5},286,2,DllHost.exe spawned from svchost normally
+,4688,2026-04-18 17:00:22.987778+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k NetworkService -p,287,2,Standard svchost NetworkService service start
+,4688,2026-04-18 17:00:23.306419+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\DllHost.exe /Processid:{69B7FE84-6361-4423-B948-1D64820B1E96},288,2,DllHost.exe spawned from svchost normally
+,4688,2026-04-18 17:00:23.980505+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe"" -ServerName:CortanaUI.AppXstmwaab17q5s3y22tp6apqz7a45vwv65.mca",289,2,SearchHost.exe spawned from svchost normally

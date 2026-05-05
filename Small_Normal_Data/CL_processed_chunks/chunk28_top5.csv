@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1912,3,User added to Administrators group
+1897,2,Administrator account enumeration event
+1898,2,DefaultAccount enumeration event
+1899,2,Guest account enumeration event
+1900,2,User account enumeration event

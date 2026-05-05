@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2598,4,EdgeWebView unzip utility process creation
+2532,3,Defender uninstalling event log manifest
+2535,3,Defender installing event log manifest
+2540,3,Defender uninstalling event log manifest
+2545,3,Defender installing event log manifest

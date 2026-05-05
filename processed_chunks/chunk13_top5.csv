@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+852,11,Wazuh agent querying password policy settings
+860,11,Wazuh agent querying password policy settings
+866,11,Wazuh agent querying password policy settings
+872,11,Wazuh agent querying password policy settings
+878,11,Wazuh agent querying lockout policy settings

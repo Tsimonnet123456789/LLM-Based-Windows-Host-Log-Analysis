@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+194,13,svchost using suspicious email credential pizzahuthacker@gmail.com
+663,11,MSI installer from PowerShell temp directory
+742,13,wazuh-agent spawning powershell querying password policy
+83,7,Upfc.exe with suspicious launchtype boot parameter
+679,8,ICACLS reset permissions ossec-agent directory

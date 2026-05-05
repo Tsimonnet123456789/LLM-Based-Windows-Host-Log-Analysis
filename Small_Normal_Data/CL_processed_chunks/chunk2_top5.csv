@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+83,7,Upfc.exe with suspicious launchtype boot parameter
+136,3,Unusual QuitInfo parameter from svchost process
+106,3,Process creation missing parent and command details
+141,2,taskhostw.exe spawned from svchost unusual
+142,2,ClipRenew.exe spawned from svchost unusual

@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+1416,8,Upfc.exe with suspicious boot launchtype parameter
+1457,6,ClipRenew.exe with suspicious parameter launch
+1439,4,Process creation with missing parent process
+1440,3,Group membership change to Administrators
+1450,3,Group membership change for pizza user

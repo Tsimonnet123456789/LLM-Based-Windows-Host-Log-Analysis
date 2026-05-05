@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2177,9,Logon with suspicious email account
+2179,9,Logon with suspicious email account
+2178,9,Logoff with suspicious email account
+2176,8,Explicit credential use with email account
+2170,3,Suspicious quit info parameter from svchost

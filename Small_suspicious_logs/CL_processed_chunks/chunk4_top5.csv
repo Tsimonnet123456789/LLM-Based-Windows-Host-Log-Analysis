@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+234,9,Upfc.exe boot launchtype with suspicious parameters
+284,3,ClipRenew.exe from svchost with -e flag
+250,3,Process creation with missing parent and command data
+271,2,AUDIODG.EXE from svchost with hex parameters
+252,2,dxgiadaptercache.exe from svchost parent

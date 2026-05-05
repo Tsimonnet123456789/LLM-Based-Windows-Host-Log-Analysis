@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2943,5,Anonymous logon to SYSTEM account detected
+3012,3,Upfc.exe with boot launchtype parameter
+3014,3,taskhostw.exe spawned from svchost
+3017,3,dxgiadaptercache.exe spawned from svchost
+2973,2,LogonUI.exe spawned from winlogon

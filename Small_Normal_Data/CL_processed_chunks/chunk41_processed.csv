@@ -1,0 +1,81 @@
+ProcessName,EventID,Timestamp,SubjectUserName,TargetUserName,ParentProcessName,CommandLine,RowID,Suspicion_Score,summary
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 18:01:02.087627+00:00,DESKTOP-7CV8A7M$,,,,2800,1,Normal system process termination event
+C:\Windows\System32\svchost.exe,4689,2026-04-18 18:01:02.641861+00:00,DESKTOP-7CV8A7M$,,,,2801,1,Normal system service host termination
+C:\Windows\System32\dllhost.exe,4689,2026-04-18 18:01:07.618025+00:00,DESKTOP-7CV8A7M$,,,,2802,1,Normal COM host process termination
+C:\Windows\System32\svchost.exe,4689,2026-04-18 18:01:25.064455+00:00,LOCAL SERVICE,,,,2803,1,Normal LOCAL SERVICE process termination
+C:\Windows\System32\svchost.exe,4689,2026-04-18 18:01:58.549736+00:00,DESKTOP-7CV8A7M$,,,,2804,1,Normal system service host termination
+C:\Windows\System32\SearchFilterHost.exe,4689,2026-04-18 18:02:10.689423+00:00,DESKTOP-7CV8A7M$,,,,2805,1,Normal search filter host termination
+C:\Windows\System32\SearchFilterHost.exe,4689,2026-04-18 18:02:10.703470+00:00,DESKTOP-7CV8A7M$,,,,2806,1,Normal search filter host termination
+C:\Windows\System32\SearchProtocolHost.exe,4689,2026-04-18 18:02:11.324068+00:00,DESKTOP-7CV8A7M$,,,,2807,1,Normal search protocol host termination
+,4688,2026-04-18 18:02:20.964037+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,taskhostw.exe,2808,2,Process creation with missing name field
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 18:02:21.984453+00:00,DESKTOP-7CV8A7M$,,,,2809,1,Normal task host process termination
+,4688,2026-04-18 18:02:24.686914+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\SearchIndexer.exe,"""C:\WINDOWS\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe11_ Global\UsGthrCtrlFltPipeMssGthrPipe11 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" ",2810,1,Normal search protocol host creation
+,4688,2026-04-18 18:02:24.732367+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\SearchIndexer.exe,"""C:\WINDOWS\System32\SearchFilterHost.exe"" 900 3004 2292 884 {1295340B-BF50-4A88-BB2F-287E0B9B0016}",2811,1,Normal search filter host creation
+,4688,2026-04-18 18:02:24.831835+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\SearchIndexer.exe,"""C:\WINDOWS\System32\SearchFilterHost.exe"" 900 3016 3012 884 {0E5DCEC5-7795-4E38-9621-94DFD9F9A421}",2812,1,Normal search filter host creation
+C:\Windows\System32\svchost.exe,4689,2026-04-18 18:02:34.783840+00:00,DESKTOP-7CV8A7M$,,,,2813,1,Normal system service host termination
+C:\Windows\System32\svchost.exe,4689,2026-04-18 18:02:55.123543+00:00,DESKTOP-7CV8A7M$,,,,2814,1,Normal system service host termination
+,4688,2026-04-18 18:03:12.330734+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MsMpEng.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe"" SignatureUpdate -ScheduleJob -RestrictPrivileges",2815,1,Normal Windows Defender signature update
+,4688,2026-04-18 18:03:12.343128+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,2816,1,Normal console host creation for Defender
+,4688,2026-04-18 18:03:12.548647+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MsMpEng.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe"" SignaturesUpdateService -ScheduleJob -UnmanagedUpdate",2817,1,Normal Windows Defender signature update
+,4688,2026-04-18 18:03:12.555685+00:00,DESKTOP-7CV8A7M$,-,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1,2818,1,Normal console host creation for Defender
+,4688,2026-04-18 18:03:12.766073+00:00,DESKTOP-7CV8A7M$,DESKTOP-7CV8A7M$,C:\Windows\System32\svchost.exe,C:\WINDOWS\system32\wbem\wmiprvse.exe -secured -Embedding,2819,1,Normal WMI provider service creation
+C:\Windows\System32\services.exe,4624,2026-04-18 18:03:17.497284+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2820,1,Normal SYSTEM account logon event
+,4627,2026-04-18 18:03:17.497295+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2821,1,Normal logon event audit record
+,4672,2026-04-18 18:03:17.497305+00:00,SYSTEM,,,,2822,1,Normal special privileges assigned
+,4688,2026-04-18 18:03:17.498590+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\system32\svchost.exe -k GPSvcGroup,2823,1,Normal svchost creation for group policy
+,4688,2026-04-18 18:03:17.807413+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\uus\packages\preview\AMD64\wuaucltcore.exe"" /DeploymentHandlerFullPath \\?\C:\Windows\UUS\Packages\Preview\AMD64\UpdateDeploy.dll /ClassId a795e0c3-39b4-41fd-9d68-dbc4b09730ab /RunHandlerComServer",2824,2,Windows update core process with DLL injection
+,4688,2026-04-18 18:03:17.954426+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\UUS\Packages\Preview\amd64\wuaucltcore.exe,"""C:\WINDOWS\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.449.173.0.exe"" WD /q",2825,2,Delta patch executable from software distribution
+,4688,2026-04-18 18:03:17.987432+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\UUS\Packages\Preview\amd64\wuaucltcore.exe,C:\WINDOWS\system32\MpSigStub.exe /stub 1.1.24010.2001 /payload 1.449.174.0 /MpWUStub /program C:\WINDOWS\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.449.173.0.exe WD /q,2826,2,Signature stub with patch installation chain
+C:\Windows\System32\services.exe,4624,2026-04-18 18:03:21.758718+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2827,1,Normal SYSTEM account logon event
+,4627,2026-04-18 18:03:21.758730+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2828,1,Normal logon event audit record
+,4672,2026-04-18 18:03:21.758739+00:00,SYSTEM,,,,2829,1,Normal special privileges assigned
+,4688,2026-04-18 18:03:21.766579+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k netsvcs -p -s BITS,2830,1,Normal svchost creation for BITS service
+C:\Windows\System32\MpSigStub.exe,4689,2026-04-18 18:03:37.119663+00:00,DESKTOP-7CV8A7M$,,,,2831,1,Normal signature stub process termination
+C:\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.449.173.0.exe,4689,2026-04-18 18:03:37.207874+00:00,DESKTOP-7CV8A7M$,,,,2832,2,Delta patch executable termination
+C:\Windows\UUS\Packages\Preview\amd64\wuaucltcore.exe,4689,2026-04-18 18:03:37.419634+00:00,DESKTOP-7CV8A7M$,,,,2833,1,Normal update core process termination
+,4799,2026-04-18 18:03:37.542881+00:00,DESKTOP-7CV8A7M$,Administrators,,,2834,1,Normal group membership change event
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,4689,2026-04-18 18:03:37.571154+00:00,DESKTOP-7CV8A7M$,,,,2835,1,Normal Defender command process termination
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:03:37.625082+00:00,DESKTOP-7CV8A7M$,,,,2836,1,Normal console host process termination
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26030.3011-0\MpCmdRun.exe,4689,2026-04-18 18:03:37.751894+00:00,DESKTOP-7CV8A7M$,,,,2837,1,Normal Defender command process termination
+C:\Windows\System32\conhost.exe,4689,2026-04-18 18:03:37.820057+00:00,DESKTOP-7CV8A7M$,,,,2838,1,Normal console host process termination
+,4688,2026-04-18 18:03:37.967949+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\winlogon.exe,"""LogonUI.exe"" /flags:0x0 /state0:0xa3d8f055 /state1:0x41c64e6d",2839,1,Normal logon UI process creation
+,4800,2026-04-18 18:03:38.258074+00:00,,pizza,,,2840,1,Normal user session lock event
+,4688,2026-04-18 18:03:38.403950+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe KEYROAMING,2841,3,Task host with KEYROAMING parameter for user
+C:\Windows\System32\services.exe,4624,2026-04-18 18:03:38.425720+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2842,1,Normal SYSTEM account logon event
+,4627,2026-04-18 18:03:38.425732+00:00,DESKTOP-7CV8A7M$,SYSTEM,,,2843,1,Normal logon event audit record
+,4672,2026-04-18 18:03:38.425741+00:00,SYSTEM,,,,2844,1,Normal special privileges assigned
+,4688,2026-04-18 18:03:38.427654+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\services.exe,C:\WINDOWS\System32\svchost.exe -k CameraMonitor,2845,1,Normal svchost creation for camera monitor
+,4798,2026-04-18 18:03:39.080805+00:00,DESKTOP-7CV8A7M$,pizza,,,2846,1,Normal user account enabled event
+,4688,2026-04-18 18:03:39.799891+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,"""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca",2847,2,Background task host for user pizza
+C:\Windows\System32\taskhostw.exe,4689,2026-04-18 18:03:40.620024+00:00,pizza,,,,2848,1,Normal task host termination for user
+,4688,2026-04-18 18:03:40.851427+00:00,pizza,-,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=37 --time-ticks-at-unix-epoch=-1776534064128359 --launch-time-ticks=1356597546 --ram-no-pressure-read-main-dll --metrics-shmem-handle=8572,i,10367531087791184347,11808734361194913309,2097152 --field-trial-handle=2284,i,7445214177790019479,381428523748705468,262144 --variations-seed-version --pseudonymization-salt-handle=2288,i,13510415274860347698,11705296152310878110,4 --trace-process-track-uuid=3190709020982419907 --mojo-platform-channel-handle=3608 /prefetch:1",2849,1,Normal Edge browser renderer process
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,4689,2026-04-18 18:03:41.504362+00:00,pizza,,,,2850,1,Normal Edge browser process termination
+,4688,2026-04-18 18:03:41.924864+00:00,pizza,-,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=renderer --pdf-upsell-enabled --disable-gpu-compositing --video-capture-use-gpu-memory-buffer --lang=en-US --js-flags --device-scale-factor=1 --num-raster-threads=1 --renderer-client-id=38 --time-ticks-at-unix-epoch=-1776534064128359 --launch-time-ticks=1357713075 --skip-read-main-dll --metrics-shmem-handle=2512,i,3513880519271484786,14186864132152397803,2097152 --field-trial-handle=2284,i,7445214177790019479,381428523748705468,262144 --variations-seed-version --pseudonymization-salt-handle=2288,i,13510415274860347698,11705296152310878110,4 --trace-process-track-uuid=3190709021919461756 --mojo-platform-channel-handle=5904 /prefetch:1",2851,1,Normal Edge browser renderer process
+C:\Windows\System32\backgroundTaskHost.exe,4689,2026-04-18 18:03:42.447611+00:00,pizza,,,,2852,1,Normal background task host termination
+,4688,2026-04-18 18:03:43.171808+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,/QuitInfo:00000000000002E0;0000000000000314; ,2853,2,Svchost with quit info parameters
+,5059,2026-04-18 18:03:45.645819+00:00,LOCAL SERVICE,,,,2854,1,Normal registry operation event
+,5059,2026-04-18 18:03:45.651447+00:00,LOCAL SERVICE,,,,2855,1,Normal registry operation event
+,4738,2026-04-18 18:03:45.670561+00:00,DESKTOP-7CV8A7M$,pizza,,,2856,1,Normal user account change event
+C:\Windows\System32\svchost.exe,4648,2026-04-18 18:03:45.676249+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2857,10,Explicit credential use with suspicious email
+C:\Windows\System32\svchost.exe,4624,2026-04-18 18:03:45.676270+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2858,10,Logon with suspicious email account
+,4627,2026-04-18 18:03:45.676283+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2859,10,Logon event with suspicious email account
+C:\Windows\System32\svchost.exe,4624,2026-04-18 18:03:45.676298+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2860,10,Logon with suspicious email account
+,4627,2026-04-18 18:03:45.676306+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2861,10,Logon event with suspicious email account
+,4672,2026-04-18 18:03:45.676376+00:00,pizzahuthacker@gmail.com,,,,2862,10,Special privileges for suspicious email account
+,4801,2026-04-18 18:03:45.680935+00:00,,pizza,,,2863,1,Normal user session unlock event
+,5059,2026-04-18 18:03:46.490671+00:00,LOCAL SERVICE,,,,2864,1,Normal registry operation event
+,5059,2026-04-18 18:03:46.563726+00:00,LOCAL SERVICE,,,,2865,1,Normal registry operation event
+,4688,2026-04-18 18:03:46.585472+00:00,DESKTOP-7CV8A7M$,-,C:\Windows\System32\svchost.exe,taskhostw.exe,2866,2,Task host creation without user context
+,4688,2026-04-18 18:03:46.683296+00:00,DESKTOP-7CV8A7M$,pizza,C:\Windows\System32\svchost.exe,taskhostw.exe KEYROAMING,2867,3,Task host with KEYROAMING parameter for user
+,4738,2026-04-18 18:03:46.730530+00:00,DESKTOP-7CV8A7M$,pizza,,,2868,1,Normal user account change event
+C:\Windows\System32\LogonUI.exe,4689,2026-04-18 18:03:46.779152+00:00,DESKTOP-7CV8A7M$,,,,2869,1,Normal logon UI process termination
+C:\Windows\System32\lsass.exe,4648,2026-04-18 18:03:46.783384+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2870,10,Explicit credential use with suspicious email
+C:\Windows\System32\lsass.exe,4624,2026-04-18 18:03:46.783409+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2871,10,Logon with suspicious email account
+,4627,2026-04-18 18:03:46.783421+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2872,10,Logon event with suspicious email account
+C:\Windows\System32\lsass.exe,4624,2026-04-18 18:03:46.783436+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2873,10,Logon with suspicious email account
+,4627,2026-04-18 18:03:46.783445+00:00,DESKTOP-7CV8A7M$,pizzahuthacker@gmail.com,,,2874,10,Logon event with suspicious email account
+,4672,2026-04-18 18:03:46.783453+00:00,pizzahuthacker@gmail.com,,,,2875,10,Special privileges for suspicious email account
+,4634,2026-04-18 18:03:46.783939+00:00,,pizza,,,2876,1,Normal user session logoff event
+,4634,2026-04-18 18:03:46.785612+00:00,,pizza,,,2877,1,Normal user session logoff event
+,4634,2026-04-18 18:03:46.787224+00:00,,pizza,,,2878,1,Normal user session logoff event
+,4634,2026-04-18 18:03:46.787390+00:00,,pizza,,,2879,1,Normal user session logoff event

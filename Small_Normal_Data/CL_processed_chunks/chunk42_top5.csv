@@ -1,0 +1,6 @@
+RowID,Suspicion_Score,summary
+2870,13,lsass.exe credential theft attempt with suspicious email
+2871,13,lsass.exe logon event with suspicious email target
+2873,13,lsass.exe logon with suspicious email account
+2872,12,Missing process name with suspicious email logon
+2874,12,Missing process with suspicious email logon event
